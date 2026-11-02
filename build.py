@@ -259,6 +259,9 @@ def build():
     cv_pdf = asset_url(cv_meta.get("pdf"), "files", "content/cv.md")
     render("cv.html", "cv/index.html", page="cv", body=cv_html(cv_body), cv_pdf=cv_pdf)
 
+    _, contact_body = read_frontmatter(CONTENT / "contact.md")
+    render("contact.html", "contact/index.html", page="contact", body=md(contact_body))
+
     render("404.html", "404.html", page="404")
 
     if site.get("domain"):

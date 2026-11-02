@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+{% block title %}Contact | {{ site.name }}{% endblock %}
+{% block content %}
+    <article class="prose contact">
+      {% if site.email %}<p><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>{% endif %}
+      {{ body | safe }}
+    </article>
+{% endblock %}

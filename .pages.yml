@@ -38,17 +38,17 @@ content:
             type: string
           - name: url
             type: string
-      - name: links
-        label: Links (ORCID, HAL, ...)
-        type: object
-        list: true
-        fields:
-          - name: name
-            type: string
-          - name: url
-            type: string
       - name: body
         label: Text
+        type: rich-text
+
+  - name: contact
+    label: Contact page
+    type: file
+    path: content/contact.md
+    fields:
+      - name: body
+        label: Text (address, links); the e-mail address is set under Site settings
         type: rich-text
 
   - name: cv

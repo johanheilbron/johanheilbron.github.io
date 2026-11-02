@@ -3,12 +3,11 @@
     <article class="about{% if photo %} has-photo{% endif %}">
       {% if photo %}<img class="portrait" src="{{ photo }}" alt="Portrait of {{ site.name }}">{% endif %}
       <div class="prose">
-        {% if about.lead %}<p class="lead">{{ about.lead }}</p>{% endif %}
+        {% if about.lead %}<p>{{ about.lead }}</p>{% endif %}
         {{ body | safe }}
       </div>
-      {% if about.affiliations or about.links or site.email %}
+      {% if about.affiliations %}
       <aside class="details">
-        {% if about.affiliations %}
         <section>
           <h2 class="label">Affiliations</h2>
           <ul>
@@ -16,22 +15,6 @@
             {% endfor %}
           </ul>
         </section>
-        {% endif %}
-        {% if site.email %}
-        <section>
-          <h2 class="label">Contact</h2>
-          <ul><li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li></ul>
-        </section>
-        {% endif %}
-        {% if about.links %}
-        <section>
-          <h2 class="label">Elsewhere</h2>
-          <ul>
-            {% for l in about.links %}<li><a href="{{ l.url }}">{{ l.name }}</a></li>
-            {% endfor %}
-          </ul>
-        </section>
-        {% endif %}
       </aside>
       {% endif %}
     </article>

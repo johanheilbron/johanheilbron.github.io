@@ -6,13 +6,6 @@ affiliations:
     url: https://cessp.cnrs.fr
   - name: Erasmus University Rotterdam
     url: https://www.eur.nl
-links:
-  - name: ORCID
-    url: https://orcid.org/0000-0003-2747-4487
-  - name: HAL (open archive)
-    url: https://hal.science/search/index/?q=authFullName_s:%22Johan%20Heilbron%22
-  - name: Academia Europaea
-    url: https://www.ae-info.org/ae/User/Heilbron_Johan
 ---
 He is directeur de recherche émérite at the CNRS, attached to the Centre européen de sociologie et de science politique (CESSP) in Paris, and emeritus at Erasmus University Rotterdam, where he was professor of economic sociology and founding director of the Erasmus Center for Economic Sociology (2008–2018).
 

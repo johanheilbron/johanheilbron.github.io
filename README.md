@@ -44,12 +44,13 @@ It tells you what it changed. PDFs it could not identify with certainty are list
 
 ---
 
-## About page and CV
+## About, CV and Contact
 
 These are ordinary text files that you can edit yourself:
 
 - **About:** `content\about.md`
 - **CV:** `content\cv.md`
+- **Contact:** `content\contact.md` (the e-mail address itself is in `content\site.yaml`)
 
 Two ways to edit them:
 
@@ -57,7 +58,7 @@ Two ways to edit them:
    click **Commit changes**.
 2. **With Pages CMS:** go to https://app.pagescms.org, click **Sign in with GitHub**,
    choose the repository `johanheilbron.github.io`, and use the forms for
-   *About page* and *CV*. Click **Save** when done.
+   *About page*, *CV* and *Contact page*. Click **Save** when done.
 
 Text between `*stars*` appears in italics. A line starting with `## ` is a heading.
 In the CV, a line like `- 2008–2018: Professor ...` puts the years in the left column.

@@ -31,7 +31,8 @@ The publication list comes from Johan's Word file, the **gold index**:
   `uv run --frozen build.py` on every push to `main` and deploys `_site/` (never committed).
 - Python environment managed by **uv** (`pyproject.toml`, `uv.lock`, local `.venv/`).
   Never `pip install` globally; use `uv add <pkg>`.
-- Pages: About (`/`), Publications (`/publications/`), CV (`/cv/`). No news section, by request.
+- Pages: About (`/`), Publications (`/publications/`), CV (`/cv/`), Contact (`/contact/`,
+  from `content/contact.md`; e-mail from `content/site.yaml`). No news section, by request.
 
 ## Publication data
 
@@ -107,11 +108,16 @@ Run these steps in order and report to Johan in plain language what changed.
 
 ## Design principles
 
-- Simple, quiet, typographic. Modelled on the Research tab Johan liked on Stephen Mennell's
-  academia.edu page: centred name, tab navigation, a section index on the left and entries
-  (title, reference, Download button) on the right.
-- Fonts: Newsreader (serif, text and titles), Source Sans 3 (labels, navigation, metadata).
-- Colours: warm paper background, near-black ink, one restrained oxblood accent for links.
-- No icons, badges, tags, gradients, cards or shadows. No frameworks; one CSS file
-  (`assets/style.css`) with variables at the top, one tiny script (`assets/site.js`).
+- Minimal, pre-AI-era academic. Structure from the Research tab Johan liked on Stephen
+  Mennell's academia.edu page (centred name, navigation, section index on the left, entries
+  on the right). Micha pointed to s-m.ac as an example of restraint, NOT as a style to copy;
+  do not imitate it (no Tufte/ET Book look).
+- **Avoid "AI default" styling.** Micha explicitly rejected it. That means: no hairline rules or
+  dividers, no underlined-tab bars, no letter-spaced uppercase labels, no sans-serif UI text,
+  no "tasteful" accent colours (terracotta, oxblood), no cream/"paper" backgrounds,
+  no buttons/boxes/cards, no icons, badges, gradients or shadows.
+- One typeface: Libre Caslon Text (Google Fonts), regular, italic and bold. Plain upright
+  headings. Ink #1d1d1d on white; secondary text #6b6b6b; links a plain muted blue (#2a4b8d),
+  underlined. Navigation is grey with the current page in black.
+- Spacing does the separating, not lines. No frameworks; one CSS file, one tiny script.
 - Must work on phones: the section index becomes a wrapped row above the list.
