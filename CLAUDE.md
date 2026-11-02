@@ -39,8 +39,9 @@ Two of Johan's Word files are the **gold sources** of the site:
   `content/cv.md`), Contact (`/contact/`, `content/contact.md`). No news section, by request.
 - E-mail (anti-spam): `content/site.yaml` holds only `email_encoded` (address reversed, then
   base64; make it with `uv run tools/encode_email.py name@example.org`). The Contact page
-  shows a "Show e-mail address" button; `assets/site.js` decodes it on click. Current address:
-  his planet.nl address (see the encoded value).
+  shows a plain "Send an e-mail" link; `assets/site.js` decodes the address on click and
+  opens a mailto: link. The address itself is never displayed. Current address: his
+  planet.nl address (see the encoded value).
 
 ## CV data
 

@@ -64,7 +64,8 @@ Two ways to edit them:
 Text between `*stars*` appears in italics. A line starting with `## ` is a heading.
 
 Your e-mail address is not written anywhere in plain text, to keep spam robots from
-collecting it: visitors see a link "Show e-mail address". To change the address, ask Claude.
+collecting it: visitors click "Send an e-mail", which opens their mail program with your
+address filled in. To change the address, ask Claude.
 
 ---
 

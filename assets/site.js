@@ -1,13 +1,11 @@
-// Contact page: decode the e-mail address only when a visitor asks for it.
+// Contact page: the "Send an e-mail" link decodes the address only when clicked.
 // The address is stored reversed and base64-encoded (tools/encode_email.py),
 // so it never appears in plain text in the HTML.
-document.querySelectorAll("button.reveal[data-e]").forEach(function (button) {
-  button.addEventListener("click", function () {
-    var address = atob(button.getAttribute("data-e")).split("").reverse().join("");
-    var link = document.createElement("a");
-    link.href = "mailto:" + address;
-    link.textContent = address;
-    button.replaceWith(link);
+document.querySelectorAll("a.email[data-e]").forEach(function (link) {
+  link.addEventListener("click", function (event) {
+    event.preventDefault();
+    var address = atob(link.getAttribute("data-e")).split("").reverse().join("");
+    window.location.href = "mailto:" + address;
   });
 });
 
