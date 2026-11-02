@@ -1,0 +1,49 @@
+{% extends "base.html" %}
+{% block title %}{{ title }} | {{ site.name }}{% endblock %}
+{% block content %}
+    <div class="research">
+      <nav class="sections" aria-label="Research sections">
+        <ul>
+          {% for s in sections %}<li><a href="#{{ s.id }}">{{ s.label }}</a></li>
+          {% endfor %}
+        </ul>
+      </nav>
+
+      <div class="listing">
+        {% if intro %}<div class="prose intro">{{ intro | safe }}</div>{% endif %}
+
+        {% for s in sections %}
+        <section id="{{ s.id }}">
+          <h2 class="label">{{ s.label }}</h2>
+          <ol class="works">
+            {% for p in s["items"] %}
+            <li class="work{% if p.cover %} has-cover{% endif %}">
+              {% if p.cover %}<img class="cover" src="{{ p.cover }}" alt="" loading="lazy">{% endif %}
+              <div class="work-text">
+                {% set main = p.pdf or p.fulltext or p.link %}
+                <h3 class="work-title">{% if main %}<a href="{{ main }}">{{ p.title | safe }}</a>{% else %}{{ p.title | safe }}{% endif %}</h3>
+                <p class="work-meta">
+                  {%- if p.authors %}<span class="authors">{{ p.authors | safe }}</span>{% endif -%}
+                  {%- if p.venue %}<span class="venue">{{ p.venue | safe }}</span>{% endif -%}
+                  {%- if p.year_label %}<span class="year">{{ p.year_label }}</span>{% endif -%}
+                </p>
+                {% if p.note %}<p class="work-note">{{ p.note | safe }}</p>{% endif %}
+                {% if main %}
+                <p class="work-actions">
+                  {% if p.pdf %}<a class="button" href="{{ p.pdf }}">Download PDF</a>{% endif %}
+                  {% if p.fulltext %}<a class="quiet" href="{{ p.fulltext }}">{{ p.fulltext_label }}</a>{% endif %}
+                  {% if p.link %}<a class="quiet" href="{{ p.link }}">{{ p.link_label }}</a>{% endif %}
+                </p>
+                {% endif %}
+              </div>
+            </li>
+            {% endfor %}
+          </ol>
+        </section>
+        {% endfor %}
+      </div>
+    </div>
+{% endblock %}
+{% block scripts %}
+  <script src="/assets/site.js" defer></script>
+{% endblock %}

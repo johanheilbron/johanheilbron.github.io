@@ -1,0 +1,170 @@
+# Pages CMS configuration (https://app.pagescms.org).
+# Gives a simple form-based editor for this repository: sign in with
+# GitHub, pick this repo, and add or edit publications without touching code.
+# Keep the "type" options below in sync with research_categories in content/site.yaml.
+
+media:
+  - name: files
+    label: PDFs
+    input: files
+    output: /files
+    extensions: [pdf]
+  - name: images
+    label: Images
+    input: images
+    output: /images
+    categories: [image]
+
+content:
+  - name: publications
+    label: Publications
+    type: collection
+    path: content/publications
+    filename: "{fields.year}-{primary}.md"
+    view:
+      fields: [title, year, type]
+      primary: title
+      sort: [year, title]
+      default:
+        sort: year
+        order: desc
+    fields:
+      - name: title
+        label: Title
+        type: string
+        required: true
+      - name: authors
+        label: Authors (as they should appear)
+        type: string
+      - name: year
+        label: Year
+        type: string
+        required: true
+      - name: type
+        label: Section on the Research page
+        type: select
+        required: true
+        options:
+          values:
+            - name: books
+              label: Books
+            - name: edited
+              label: Edited volumes
+            - name: articles
+              label: Journal articles
+            - name: chapters
+              label: Book chapters
+            - name: other
+              label: Other writings
+      - name: venue
+        label: Journal / publisher / book (e.g. "Cambridge: Polity Press")
+        type: string
+      - name: pdf
+        label: PDF of the paper
+        type: file
+        options:
+          media: files
+          extensions: [pdf]
+          rename: safe
+      - name: link
+        label: Web link (DOI or publisher page), optional
+        type: string
+      - name: fulltext
+        label: Free online version (e.g. HAL, Cairn, Persée), optional
+        type: string
+      - name: cover
+        label: Book cover image, optional
+        type: image
+        options:
+          media: images
+          path: images/covers
+      - name: hidden
+        label: Hide from the website
+        type: boolean
+      - name: body
+        label: Short note, optional (shown under the entry)
+        type: text
+
+  - name: about
+    label: About page
+    type: file
+    path: content/about.md
+    fields:
+      - name: lead
+        label: Opening sentence (shown larger)
+        type: text
+      - name: photo
+        label: Portrait photo
+        type: image
+        options:
+          media: images
+      - name: affiliations
+        label: Affiliations
+        type: object
+        list: true
+        fields:
+          - name: name
+            type: string
+          - name: url
+            type: string
+      - name: links
+        label: Links (Google Scholar, HAL, ...)
+        type: object
+        list: true
+        fields:
+          - name: name
+            type: string
+          - name: url
+            type: string
+      - name: body
+        label: Text
+        type: rich-text
+
+  - name: research
+    label: Research page introduction
+    type: file
+    path: content/research.md
+    fields:
+      - name: title
+        type: string
+      - name: body
+        label: Introduction (optional)
+        type: rich-text
+
+  - name: cv
+    label: CV
+    type: file
+    path: content/cv.md
+    fields:
+      - name: pdf
+        label: CV as PDF (optional)
+        type: file
+        options:
+          media: files
+          extensions: [pdf]
+      - name: body
+        label: CV text
+        type: rich-text
+
+  - name: site
+    label: Site settings
+    type: file
+    path: content/site.yaml
+    fields:
+      - name: name
+        type: string
+      - name: description
+        type: text
+      - name: email
+        type: string
+      - name: domain
+        type: string
+      - name: research_categories
+        label: Research page sections
+        type: object
+        list: true
+        fields:
+          - name: id
+            type: string
+          - name: label
+            type: string

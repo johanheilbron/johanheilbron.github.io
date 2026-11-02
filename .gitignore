@@ -1,0 +1,11 @@
+# Python environment (recreate with: uv sync)
+.venv/
+__pycache__/
+
+# Build output (GitHub Actions builds the live site itself)
+_site/
+
+# OS clutter
+.DS_Store
+Thumbs.db
+desktop.ini

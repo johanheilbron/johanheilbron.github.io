@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+{% block title %}CV | {{ site.name }}{% endblock %}
+{% block content %}
+    <article class="cv prose">
+      {% if cv_pdf %}<p class="cv-download"><a class="button" href="{{ cv_pdf }}">Download CV (PDF)</a></p>{% endif %}
+      {{ body | safe }}
+    </article>
+{% endblock %}
