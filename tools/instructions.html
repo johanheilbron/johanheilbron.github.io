@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Your website: how it works</title>
+<!-- Source of "Website instructions.pdf". Regenerate with tools/make_instructions_pdf.ps1 -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&display=swap">
+<style>
+  @page { size: A4; margin: 14mm 18mm; }
+  body { font-family: "Libre Caslon Text", Georgia, serif; font-size: 10pt; line-height: 1.45; color: #1d1d1d; margin: 0; }
+  h1 { font-size: 19pt; font-weight: normal; margin: 0 0 2pt; }
+  .sub { color: #6b6b6b; margin: 0 0 12pt; }
+  h2 { font-size: 12.5pt; font-weight: normal; margin: 13pt 0 4pt; }
+  p { margin: 0 0 6pt; }
+  ol, ul { margin: 0 0 6pt; padding-left: 16pt; }
+  li { margin-bottom: 3pt; }
+  table { border-collapse: collapse; margin: 4pt 0 8pt; }
+  td { padding: 2pt 14pt 2pt 0; vertical-align: top; }
+  td:first-child { white-space: nowrap; }
+  code, .path { font-family: "Libre Caslon Text", Georgia, serif; font-weight: bold; }
+  .note { color: #6b6b6b; }
+  .box { margin: 14pt 0 0; }
+</style>
+</head>
+<body>
+
+<h1>Your website: how it works</h1>
+<p class="sub">Now at <b>johanheilbron.github.io</b>; later at <b>johanheilbron.nl</b>.</p>
+
+<h2>1. Your to-do list for the final version</h2>
+<ol>
+  <li><b>A photo.</b> Choose a portrait and copy it into the folder <span class="path">Documenten › website › images</span>. Any file name is fine.</li>
+  <li><b>The About text.</b> Write a new version in Word or in an e-mail, whichever is easiest. It will be put in place for you.</li>
+  <li><b>The PDFs of your publications.</b> Put them in the right folders; see section 2.</li>
+  <li><b>The design.</b> Look at the website and note what you would like to change.</li>
+</ol>
+
+<h2>2. Adding PDFs</h2>
+<ol>
+  <li>Open <b>File Explorer</b> (the yellow folder icon in the taskbar, or press <b>Windows key + E</b>).</li>
+  <li>Go to <span class="path">Documenten › website › bib</span>. There you find five folders, one for each section of your publication list:</li>
+</ol>
+<table>
+  <tr><td><span class="path">books</span></td><td>books, edited volumes, brochures</td></tr>
+  <tr><td><span class="path">scientific-editions</span></td><td>the Bourdieu and Elias editions</td></tr>
+  <tr><td><span class="path">articles-chapters</span></td><td>articles, book chapters, reviews, essays</td></tr>
+  <tr><td><span class="path">journal-issues</span></td><td>thematic journal issues</td></tr>
+  <tr><td><span class="path">film</span></td><td>the film</td></tr>
+</table>
+<ol start="3">
+  <li>Copy or drag each PDF into the matching folder.</li>
+</ol>
+<ul>
+  <li><b>File names do not matter.</b> You do not need to rename anything.</li>
+  <li>Not sure which folder? Pick the closest one; a wrong folder is not a problem.</li>
+  <li>Keep each PDF under about 20 MB if you can (large scans can be made smaller).</li>
+  <li>The PDFs appear on the website only after the next synchronisation (section 4).</li>
+</ul>
+
+<h2>3. Your Word files remain the source</h2>
+<p>The website takes your publication list and your CV from your own Word files:</p>
+<ul>
+  <li><span class="path">- 1 PUBL78NU(NL).docx</span> → the Publications page</li>
+  <li><span class="path">- 2 Heilbron CV (English complete) 2026.docx</span> → the CV page</li>
+</ul>
+<p>Keep working in them exactly as before. Nothing on the website ever changes these files.
+Typos in them also appear on the website, so corrections are best made there.</p>
+
+<h2>4. Putting changes online</h2>
+<p>After you have added PDFs or changed your Word files:</p>
+<ol>
+  <li>Open the <b>Claude</b> app, go to <b>Code</b>, and choose the folder <span class="path">website</span>.</li>
+  <li>Type: <b>Sync the website.</b></li>
+</ol>
+<p>Claude reads your Word files, links each new PDF to the right publication (it gets a
+<i>Download</i> link), puts everything online and tells you what it changed. If it cannot
+identify a PDF with certainty, it tells you so and asks; it never guesses.
+The website is updated about two minutes later.</p>
+
+<div class="box">
+  <p><b>Please do not</b> move or rename the folders inside <span class="path">website</span>, and leave the
+  other files there alone. Questions: ask Micha, or ask Claude in the <span class="path">website</span> folder.</p>
+</div>
+
+</body>
+</html>

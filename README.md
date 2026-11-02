@@ -3,6 +3,8 @@
 The source of the website **https://johanheilbron.nl**.
 Every change saved here appears on the website by itself, usually within two minutes.
 
+Johan: your instructions are in **Website instructions.pdf**.
+
 ---
 
 ## The publication list and the CV

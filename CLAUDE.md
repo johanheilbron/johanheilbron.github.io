@@ -7,8 +7,11 @@ via GitHub Pages (custom domain registered at TransIP).
 ## Who uses this
 
 - **Johan** (site owner) is not a programmer. He maintains his publication list and CV in
-  Word, drops PDFs into `bib/`, and asks Claude to "sync the website". README.md is written
-  for him; keep it accurate and in plain language whenever you change how things work.
+  Word, drops PDFs into `bib/`, and asks Claude to "sync the website". His instructions are
+  the PDF **`Website instructions.pdf`** (repo root), rendered from `tools/instructions.html`
+  with `& .\tools\make_instructions_pdf.ps1`. Never point him to Markdown files. Whenever
+  you change how things work for him, update `tools/instructions.html`, re-render the PDF
+  (and check it), and keep README.md (the GitHub page) consistent.
 - **Micha** (his son) set the site up and may ask agents for design changes.
 
 ## RULE ZERO: the gold files are read-only
