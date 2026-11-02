@@ -1,0 +1,49 @@
+{% extends "base.html" %}
+{% block title %}{{ title }} | {{ site.name }}{% endblock %}
+{% block content %}
+    <div class="research">
+      <nav class="sections" aria-label="Publication sections">
+        <ul>
+          {% for s in sections %}<li><a href="#{{ s.id }}">{{ s.label }}</a></li>
+          {% endfor %}
+        </ul>
+      </nav>
+
+      <div class="listing">
+        {% if intro %}<div class="prose intro">{{ intro | safe }}</div>{% endif %}
+
+        {% for s in sections %}
+        <section id="{{ s.id }}">
+          <h2 class="label">{{ s.label }}</h2>
+          <ol class="works">
+            {% for p in s["items"] %}
+            {% set main = p.pdf or p.fulltext or p.link %}
+            <li class="work{% if p.cover %} has-cover{% endif %}" id="{{ p.id }}">
+              {% if p.cover %}<img class="cover" src="{{ p.cover }}" alt="" loading="lazy">{% endif %}
+              <div class="work-text">
+                <h3 class="work-title">{% if main %}<a href="{{ main }}">{{ p.title | safe }}</a>{% else %}{{ p.title | safe }}{% endif %}</h3>
+                <p class="work-meta">
+                  {%- if p.authors %}<span class="authors">{{ p.authors | safe }}</span>{% endif -%}
+                  {%- if p.details %}<span class="venue">{{ p.details | safe }}</span>{% endif -%}
+                </p>
+                {% for a in p.also %}<p class="work-also">{{ a | safe }}</p>
+                {% endfor %}
+                {% if main %}
+                <p class="work-actions">
+                  {% if p.pdf %}<a class="button" href="{{ p.pdf }}">Download PDF</a>{% endif %}
+                  {% if p.fulltext %}<a class="quiet" href="{{ p.fulltext }}">Full text</a>{% endif %}
+                  {% if p.link %}<a class="quiet" href="{{ p.link }}">{{ p.link_label }}</a>{% endif %}
+                </p>
+                {% endif %}
+              </div>
+            </li>
+            {% endfor %}
+          </ol>
+        </section>
+        {% endfor %}
+      </div>
+    </div>
+{% endblock %}
+{% block scripts %}
+  <script src="/assets/site.js" defer></script>
+{% endblock %}

@@ -1,75 +1,117 @@
 # CLAUDE.md: johanheilbron.nl
 
-Personal academic website of Johan Heilbron (historical sociologist).
+Personal academic website of Johan Heilbron (historical sociologist, largely retired).
 Repository: `johanheilbron/johanheilbron.github.io`, served at https://johanheilbron.nl
 via GitHub Pages (custom domain registered at TransIP).
 
 ## Who uses this
 
-- **Johan** (site owner) is not a programmer. He edits content through Pages CMS
-  (`.pages.yml`) or the GitHub web interface; see README.md, which is written for him.
-  Keep README.md accurate and in plain language whenever you change how content works.
+- **Johan** (site owner) is not a programmer. He maintains his publication list in Word,
+  drops PDFs into `bib/`, and asks Claude to "sync the website". README.md is written for
+  him; keep it accurate and in plain language whenever you change how things work.
 - **Micha** (his son) set the site up and may ask agents for design changes.
+
+## RULE ZERO: the gold index is read-only
+
+The publication list comes from Johan's Word file, the **gold index**:
+
+    C:\Users\johan\OneDrive\Documenten\Johan 1 - Werk\CV\- 1 PUBL78NU(NL).docx
+
+- **Never edit, move, rename, copy over, re-save or "fix" this file, or anything else in
+  `Johan 1 - Werk`.** Not even typos. Only Johan changes it. If you think something in it
+  is wrong, tell him.
+- Read it **only** through `uv run tools/read_index.py`, which opens it read-only and writes
+  a text snapshot into this repo. `.claude/settings.json` denies Claude's edit tools on that
+  folder; do not weaken that rule, and do not write there from scripts or shell commands.
 
 ## Architecture
 
-- Plain static site, no Jekyll. `build.py` renders `content/` through Jinja templates
-  in `templates/` into `_site/`.
-- GitHub Actions (`.github/workflows/deploy.yml`) runs `uv run --frozen build.py` on every
-  push to `main` and deploys `_site/` to Pages. `_site/` is never committed.
-- Python environment is managed by **uv**: dependencies in `pyproject.toml` / `uv.lock`,
-  local env in `.venv/` (gitignored). Never `pip install` globally; use `uv add <pkg>`.
-- Three pages: About (`/`), Research (`/research/`), CV (`/cv/`). No news section: Johan
-  is largely retired and explicitly does not want one.
+- Plain static site, no Jekyll. `build.py` renders `content/` through Jinja templates in
+  `templates/` into `_site/`. GitHub Actions (`.github/workflows/deploy.yml`) runs
+  `uv run --frozen build.py` on every push to `main` and deploys `_site/` (never committed).
+- Python environment managed by **uv** (`pyproject.toml`, `uv.lock`, local `.venv/`).
+  Never `pip install` globally; use `uv add <pkg>`.
+- Pages: About (`/`), Publications (`/publications/`), CV (`/cv/`). No news section, by request.
 
-## Content model
+## Publication data
 
-- `content/site.yaml`: name, e-mail, domain, and `research_categories` (order + labels of
-  the Research page sections). If you change categories, update the `type` select options
-  in `.pages.yml` and the list of types in README.md too.
-- `content/publications/*.md`: one file per publication, named `YEAR-short-slug.md`.
-  Front matter: `title` (required), `authors`, `year`, `type` (category id), `venue`,
-  `pdf` (local file → "Download PDF" button), `fulltext` (free online version, e.g. HAL,
-  Cairn, Persée), `link` (DOI or publisher page), `link_label`, `fulltext_label`, `cover`,
-  `hidden`. Optional body = short note.
-  Conventions: leave `authors` empty for sole-authored work (it is his own site); for
-  co-authored work list everyone in order as initials + surname ("M. van Bottenburg &
-  J. Heilbron"), with "(eds)" for edited volumes. Italicise journal and book titles in
-  `venue` with Markdown (`*European Journal of Social Theory* 2(4): 429–444`).
-  `year` may be a range such as "1997–2010"; sorting uses the first four digits.
-  Within a section, entries sort newest first.
-- `pdf`/`cover`/`photo` accept `files/x.pdf`, `/files/x.pdf` (Pages CMS style), a bare
-  filename, or a full URL. Missing local files produce a build warning and the link is
-  left out, so the site never shows broken downloads.
-- `content/cv.md`: Markdown. List items that start with a year or year range
-  (`- 2005–2020 Text`) are rendered with a date column.
-- PDFs in `files/`, images in `images/` (covers in `images/covers/`).
+- `content/site.yaml` → `publication_sections`: the sections of the Publications page, in
+  order, mirroring the sections of the gold index:
 
-## Commands (PowerShell on Windows; uv is on PATH)
+  | Section id | Gold index section |
+  |---|---|
+  | `books` | Books / Ouvrages / Boeken / Brochures |
+  | `scientific-editions` | Scientific editions |
+  | `articles-chapters` | Articles, chapters, scientific book reviews |
+  | `journal-issues` | Thematic journal issues |
+  | `film` | Filmography |
 
-- Build: `uv run build.py`
-- Preview: `uv run build.py serve` → http://localhost:8000 (or the `site` entry in
-  `.claude/launch.json`)
-- Always build and check for `WARNING` lines before committing.
+- `content/publications/<section-id>.yaml`: one YAML list per section. Generated and
+  maintained by agents from the gold index; never edited by Johan. Schema per entry:
 
-## Adding papers on Johan's behalf
+  ```yaml
+  - id: "2015-french-sociology"   # stable: "<year>-<first words of title>", unique site-wide; never change an existing id
+    year: 2015                     # integer; for articles, the year heading it sits under in the index
+    authors: "Julien Duval, Johan Heilbron (dir.)"   # as written before the title; omit if Johan is sole author or none is written
+    title: "French Sociology"      # without surrounding quotation marks; *italic* allowed
+    details: "Ithaca/London: Cornell University Press, 2015."   # rest of the reference, as written, minus URLs
+    also:                          # optional: translations, reprints, continuation lines that belong to this entry
+      - "*La Sociologie française...*, Paris : CNRS Éditions, 2020."
+    fulltext: "https://..."        # optional: openly readable full text (Persée, HAL /document, OpenEdition, AST archive, ...)
+    link: "https://doi.org/..."    # optional: DOI or publisher page
+    pdf: "any file name.pdf"       # optional: a file in bib/<section-id>/ (or a path starting with bib/)
+    cover: "file.jpg"              # optional: image in images/covers/
+    hidden: true                   # optional: keep in the data but not on the site
+  ```
 
-1. Copy the PDF into `files/` with a short, space-free name (`YEAR-short-slug.pdf`).
-2. Create `content/publications/YEAR-short-slug.md` with the front matter above.
-   Quote strings containing colons.
-3. `uv run build.py`, check the Research page in the preview.
-4. Commit and push: `git add -A; git commit -m "Add <short title>"; git push`.
-   Git authenticates over SSH with the key in `~/.ssh/id_ed25519` (account `johanheilbron`).
-5. The Actions run deploys within ~2 minutes; check with `gh run list --limit 3`.
+  Text is **faithful to the index**: no paraphrasing, translating or correcting (typos stay).
+  Only split into fields, strip the quotes around the title, and move URLs into
+  `fulltext`/`link`. Entries are listed in index order; the build sorts each section by
+  `year`, newest first, keeping index order within a year.
+- `content/publications/index-snapshot.txt`: text snapshot of the gold index at the last
+  sync (one paragraph per line, `*...*` = italic). `git diff` on it shows what Johan changed.
+- `bib/<section-id>/`: Johan's PDFs, any file name, unstructured. Published as-is under
+  `/bib/...`. Never rename or move his files. A PDF shows on the site only once an entry's
+  `pdf:` points to it; the build lists PDFs that are not linked yet.
+
+## The sync routine ("sync the website")
+
+Run these steps in order and report to Johan in plain language what changed.
+
+1. **Snapshot the index.** `uv run tools/read_index.py`, then `git diff content/publications/index-snapshot.txt`.
+2. **Update the data** for every changed, added or removed paragraph:
+   - added → new entry in the right section file, in index order, following the schema;
+   - changed → update that entry's fields, keep its `id`, `pdf` and `cover`;
+   - removed → delete the entry; if it had a `pdf`, leave the file in `bib/` and mention it.
+   Use the section headings and year headings in the snapshot to place entries.
+3. **Link new PDFs.** `uv run build.py` lists "not linked" PDFs. For each: read it (the
+   Read tool reads PDFs; the first pages usually suffice), identify the publication, and set
+   `pdf:` on that entry (file name only if it is in the entry's own section folder). A PDF in
+   the "wrong" folder is fine: link it with its full `bib/...` path.
+   If you are not sure, do not guess: add it to `bib/UNMATCHED.md` (file, what you found,
+   candidate entries) and tell Johan. Remove resolved items from that file.
+4. **Build and check.** `uv run build.py` must end without new `WARNING` lines. Preview with
+   `uv run build.py serve` (http://localhost:8000/publications/) if you changed anything visible.
+5. **Commit and push.** `git add -A; git commit -m "Sync publications: <short summary>"; git push`.
+   Git authenticates over SSH (`~/.ssh/id_ed25519`, account `johanheilbron`). The Actions run
+   deploys within ~2 minutes; check with `gh run list --limit 3`.
+
+## Other commands (PowerShell on Windows)
+
+- If `uv`, `git` or `gh` are not found, refresh PATH first:
+  `$env:Path = [Environment]::GetEnvironmentVariable('Path','Machine') + ';' + [Environment]::GetEnvironmentVariable('Path','User')`
+- Build: `uv run build.py` · Preview: `uv run build.py serve` → http://localhost:8000
+- Size limits: GitHub Pages allows 1 GB for the whole site and github.com uploads up to 25 MB
+  per file. The build warns for PDFs over 20 MB and for `bib/` over 700 MB; compress large
+  scans, or host them on HAL or Zenodo and put the URL in `fulltext`.
 
 ## Design principles
 
-- Simple, quiet, typographic. A scholar's site, modelled on the Research tab Johan liked
-  on Stephen Mennell's academia.edu page: centred name, tab navigation, and a Research
-  page with a section index on the left and entries (optional cover, title, authors,
-  Download button) on the right.
+- Simple, quiet, typographic. Modelled on the Research tab Johan liked on Stephen Mennell's
+  academia.edu page: centred name, tab navigation, a section index on the left and entries
+  (title, reference, Download button) on the right.
 - Fonts: Newsreader (serif, text and titles), Source Sans 3 (labels, navigation, metadata).
 - Colours: warm paper background, near-black ink, one restrained oxblood accent for links.
 - No icons, badges, tags, gradients, cards or shadows. No frameworks; one CSS file
   (`assets/style.css`) with variables at the top, one tiny script (`assets/site.js`).
-- Must work on phones: the Research index becomes a wrapped row above the list.
+- Must work on phones: the section index becomes a wrapped row above the list.

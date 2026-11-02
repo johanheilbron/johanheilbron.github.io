@@ -2,9 +2,13 @@
 """
 build.py: static site generator for johanheilbron.nl
 
-Reads the content in content/ (Markdown files with YAML front matter),
-renders it through the Jinja templates in templates/, and writes the
-finished site to _site/. GitHub Actions runs this on every push.
+Reads the content in content/ (Markdown and YAML), renders it through the
+Jinja templates in templates/, and writes the finished site to _site/.
+GitHub Actions runs this on every push.
+
+The publication list comes from content/publications/<section>.yaml, which
+an agent maintains from Johan's gold index (see CLAUDE.md). PDFs live in
+bib/<section>/ and are published as they are.
 
 Usage:
     uv run build.py          build the site into _site/
@@ -16,6 +20,7 @@ import re
 import shutil
 import sys
 from pathlib import Path
+from urllib.parse import quote
 
 import markdown
 import yaml
@@ -27,7 +32,11 @@ TEMPLATES = ROOT / "templates"
 OUT = ROOT / "_site"
 
 # Folders copied verbatim into the site
-STATIC_DIRS = ["assets", "files", "images"]
+STATIC_DIRS = ["assets", "files", "images", "bib"]
+
+# PDF size checks (GitHub Pages allows 1 GB for the whole site)
+PDF_WARN_MB = 20
+BIB_WARN_MB = 700
 
 warnings = []
 
@@ -67,34 +76,36 @@ def md_inline(text):
     return html
 
 
-def asset_url(value, default_dir, context):
-    """Turn a file reference from front matter into a site URL.
+def local_path(value, default_dir):
+    """Repo-relative path for a file reference ("x.pdf", "bib/books/x.pdf", "/bib/...")."""
+    rel = str(value).strip().lstrip("/")
+    return rel if "/" in rel else f"{default_dir}/{rel}"
 
-    Accepts a full URL, a repo path ("files/x.pdf" or "/files/x.pdf"),
-    or a bare filename (looked up in default_dir). Returns None, with a
-    warning, if the file does not exist, so the site never shows a
-    broken download link.
+
+def asset_url(value, default_dir, context):
+    """Turn a file reference into a site URL.
+
+    Accepts a full URL, a repo path ("bib/books/x.pdf" or "/bib/books/x.pdf"),
+    or a bare file name (looked up in default_dir). Returns None, with a
+    warning, if the file does not exist, so the site never shows a broken
+    download link.
     """
     if not value:
         return None
     value = str(value).strip()
     if re.match(r"https?://", value):
         return value
-    rel = value.lstrip("/")
-    if "/" not in rel:
-        rel = f"{default_dir}/{rel}"
+    rel = local_path(value, default_dir)
     if not (ROOT / rel).is_file():
         warn(f"{context}: file '{value}' not found, link left out")
         return None
-    return "/" + rel
+    return "/" + quote(rel)
 
 
 def link_label(url):
     if "doi.org" in url:
         return "DOI"
-    if "hal.science" in url or "archives-ouvertes" in url:
-        return "HAL"
-    return "Online"
+    return "Publisher"
 
 
 YEAR_PREFIX = re.compile(
@@ -118,62 +129,89 @@ def cv_html(text):
 
 
 # ---------------------------------------------------------------------------
-# Content loaders
+# Publications
 # ---------------------------------------------------------------------------
 
-def load_site():
-    with open(CONTENT / "site.yaml", encoding="utf-8-sig") as f:
-        return yaml.safe_load(f) or {}
-
-
-def load_publications(categories):
-    known = {c["id"] for c in categories}
-    pubs = []
-    for path in sorted((CONTENT / "publications").glob("*.md")):
-        name = f"content/publications/{path.name}"
-        try:
-            meta, body = read_frontmatter(path)
-        except yaml.YAMLError as e:
-            warn(f"{name}: could not read the top section ({e.__class__.__name__}), skipped")
-            continue
-        if not meta.get("title"):
-            warn(f"{name}: no title, skipped")
-            continue
-        if meta.get("hidden"):
-            continue
-        kind = str(meta.get("type", "")).strip()
-        if kind not in known:
-            warn(f"{name}: unknown type '{kind}', shown under '{categories[-1]['label']}'")
-            kind = categories[-1]["id"]
-        link = str(meta["link"]).strip() if meta.get("link") else None
-        fulltext = str(meta["fulltext"]).strip() if meta.get("fulltext") else None
-        try:
-            year = int(str(meta.get("year", "")).strip()[:4])
-        except ValueError:
-            year = None
-        pubs.append({
-            "title": md_inline(str(meta["title"])),
-            "authors": md_inline(str(meta.get("authors", "") or "")),
-            "venue": md_inline(str(meta.get("venue", "") or "")),
-            "year": year,
-            "year_label": meta.get("year", ""),
-            "type": kind,
-            "pdf": asset_url(meta.get("pdf"), "files", name),
-            "cover": asset_url(meta.get("cover"), "images/covers", name),
-            "link": link,
-            "link_label": meta.get("link_label") or (link_label(link) if link else None),
-            "fulltext": fulltext,
-            "fulltext_label": meta.get("fulltext_label") or "Full text",
-            "note": md_inline(body) if body else "",
-        })
-    # Newest first; undated items last
-    pubs.sort(key=lambda p: (-(p["year"] or 0), p["title"].lower()))
+def load_publications(sections_config):
+    """Load content/publications/<id>.yaml for every section in site.yaml."""
+    seen_ids = set()
+    linked_pdfs = set()
     sections = []
-    for cat in categories:
-        items = [p for p in pubs if p["type"] == cat["id"]]
+    for sec in sections_config:
+        sid = sec["id"]
+        path = CONTENT / "publications" / f"{sid}.yaml"
+        name = f"content/publications/{sid}.yaml"
+        if not path.is_file():
+            warn(f"{name} missing, section '{sec['label']}' left out")
+            continue
+        try:
+            entries = yaml.safe_load(path.read_text(encoding="utf-8-sig")) or []
+        except yaml.YAMLError as e:
+            warn(f"{name} could not be read ({e.__class__.__name__}), section left out")
+            continue
+
+        items = []
+        for e in entries:
+            if not isinstance(e, dict) or not e.get("title"):
+                warn(f"{name}: entry without title skipped")
+                continue
+            if e.get("hidden"):
+                continue
+            eid = str(e.get("id", ""))
+            if not eid or eid in seen_ids:
+                warn(f"{name}: missing or duplicate id '{eid}'")
+            seen_ids.add(eid)
+            ctx = f"{name} [{eid}]"
+            pdf = asset_url(e.get("pdf"), f"bib/{sid}", ctx)
+            if pdf and pdf.startswith("/"):
+                linked_pdfs.add((ROOT / local_path(e["pdf"], f"bib/{sid}")).resolve())
+            link = str(e["link"]).strip() if e.get("link") else None
+            try:
+                year = int(e.get("year") or 0)
+            except (TypeError, ValueError):
+                warn(f"{ctx}: year '{e.get('year')}' is not a number")
+                year = 0
+            items.append({
+                "id": eid,
+                "year": year,
+                "title": md_inline(str(e["title"])),
+                "authors": md_inline(str(e.get("authors") or "")),
+                "details": md_inline(str(e.get("details") or "")),
+                "also": [md_inline(str(a)) for a in (e.get("also") or [])],
+                "pdf": pdf,
+                "fulltext": str(e["fulltext"]).strip() if e.get("fulltext") else None,
+                "link": link,
+                "link_label": e.get("link_label") or (link_label(link) if link else None),
+                "cover": asset_url(e.get("cover"), "images/covers", ctx),
+            })
+        # Newest first; entries of the same year keep the order of the gold index
+        items.sort(key=lambda p: -p["year"])
         if items:
-            sections.append({**cat, "items": items})
-    return sections
+            sections.append({**sec, "items": items})
+    return sections, linked_pdfs
+
+
+def check_bib(linked_pdfs):
+    """Report PDFs in bib/ that no entry links to yet, and size problems."""
+    bib = ROOT / "bib"
+    if not bib.is_dir():
+        return
+    pdfs = sorted(p for p in bib.rglob("*") if p.is_file() and p.suffix.lower() == ".pdf")
+    total = 0
+    unlinked = []
+    for p in pdfs:
+        size = p.stat().st_size
+        total += size
+        rel = p.relative_to(ROOT).as_posix()
+        if size > PDF_WARN_MB * 1024 * 1024:
+            warn(f"{rel} is {size / 1048576:.0f} MB; consider compressing it (limit for upload on github.com is 25 MB)")
+        if p.resolve() not in linked_pdfs:
+            unlinked.append(rel)
+    if total > BIB_WARN_MB * 1024 * 1024:
+        warn(f"bib/ holds {total / 1048576:.0f} MB of PDFs; GitHub Pages allows 1 GB for the whole site")
+    print(f"  bib/: {len(pdfs)} PDF(s), {total / 1048576:.1f} MB, {len(unlinked)} not yet linked to the index")
+    for rel in unlinked:
+        print(f"    not linked: {rel}")
 
 
 # ---------------------------------------------------------------------------
@@ -194,7 +232,7 @@ def build():
     for d in STATIC_DIRS:
         if (ROOT / d).is_dir():
             shutil.copytree(ROOT / d, OUT / d, dirs_exist_ok=True,
-                            ignore=shutil.ignore_patterns(".gitkeep", "README*"))
+                            ignore=shutil.ignore_patterns(".gitkeep", "README*", "*.md"))
 
     css_hash = hashlib.md5((ROOT / "assets" / "style.css").read_bytes()).hexdigest()[:8]
 
@@ -212,10 +250,10 @@ def build():
     render("about.html", "index.html", page="about", about=about_meta,
            photo=photo, body=md(about_body))
 
-    research_meta, research_body = read_frontmatter(CONTENT / "research.md")
-    sections = load_publications(site["research_categories"])
-    render("research.html", "research/index.html", page="research",
-           intro=md(research_body), sections=sections, title=research_meta.get("title", "Research"))
+    pubs_meta, pubs_body = read_frontmatter(CONTENT / "publications.md")
+    sections, linked_pdfs = load_publications(site["publication_sections"])
+    render("publications.html", "publications/index.html", page="publications",
+           intro=md(pubs_body), sections=sections, title=pubs_meta.get("title", "Publications"))
 
     cv_meta, cv_body = read_frontmatter(CONTENT / "cv.md")
     cv_pdf = asset_url(cv_meta.get("pdf"), "files", "content/cv.md")
@@ -226,8 +264,14 @@ def build():
     if site.get("domain"):
         (OUT / "CNAME").write_text(site["domain"] + "\n", encoding="utf-8")
 
+    check_bib(linked_pdfs)
     count = sum(len(s["items"]) for s in sections)
     print(f"Build complete: {count} publications, {len(warnings)} warning(s).")
+
+
+def load_site():
+    with open(CONTENT / "site.yaml", encoding="utf-8-sig") as f:
+        return yaml.safe_load(f) or {}
 
 
 def serve(port=8000):

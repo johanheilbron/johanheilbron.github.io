@@ -1,21 +1,21 @@
 # Site-wide settings for johanheilbron.nl
 
 name: Johan Heilbron
-description: Johan Heilbron, historical sociologist. Research, publications and CV.
+description: Johan Heilbron, historical sociologist. Publications and CV.
 email:            # e.g. name@example.org; leave empty to hide
 domain: johanheilbron.nl
 
-# Sections of the Research page, in the order they appear.
-# Every publication file has a "type" that matches one of these ids.
-# The last entry catches publications with a missing or unknown type.
-research_categories:
+# Sections of the Publications page, in the order they appear.
+# Each section has its list in content/publications/<id>.yaml
+# and its PDFs in bib/<id>/. Derived from the sections of Johan's gold index.
+publication_sections:
   - id: books
     label: Books
-  - id: edited
-    label: Edited volumes
-  - id: articles
-    label: Journal articles
-  - id: chapters
-    label: Book chapters
-  - id: other
-    label: Other writings
+  - id: scientific-editions
+    label: Scientific editions
+  - id: articles-chapters
+    label: Articles and chapters
+  - id: journal-issues
+    label: Thematic journal issues
+  - id: film
+    label: Filmography

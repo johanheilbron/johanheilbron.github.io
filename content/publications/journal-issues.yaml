@@ -1,0 +1,67 @@
+# Thematic journal issues: from the section "Thematic journal issues" of Johan's gold index.
+# Maintained by an agent from content/publications/index-snapshot.txt; see CLAUDE.md.
+# pdf: a file name inside bib/journal-issues/ (or a path starting with bib/).
+
+- id: "2023-long-term-processes-in-human-history"
+  year: 2023
+  authors: "Johan Heilbron, Nico Wilterdink (eds)"
+  title: "Long-Term Processes in Human History"
+  details: "*Historical Social Research*, 48 (1) 2023."
+  fulltext: "https://www.gesis.org/hsr/volltext-archiv/2023/481-long-term-processes-in-human-history"
+
+- id: "2022-qui-a-peur-des-sciences-sociales"
+  year: 2022
+  authors: "Jérôme Bourdieu, Sara Dezalay, Julien Duval, Johan Heilbron, Franck Poupeau (coordination)"
+  title: "Qui a peur des sciences sociales ?"
+  details: "*Actes de la recherche en sciences sociales*, no. 243-244, 2022."
+
+- id: "2017-understanding-the-social-sciences-and-humanities"
+  year: 2017
+  authors: "Johan Heilbron, Rob Timans, Thibaud Boncourt (eds)"
+  title: "Understanding the Social Sciences and Humanities in Europe"
+  details: "*Serendipities. Journal for the Sociology and History of the Social Sciences*, 2 (1) 2017."
+  fulltext: "http://serendipities.uni-graz.at/index.php/serendipities/issue/view/5"
+
+- id: "2015-espace-des-disciplines-et-pratiques-interdisciplinaires"
+  year: 2015
+  authors: "Yves Gingras & Johan Heilbron (éd.)"
+  title: "Espace des disciplines et pratiques interdisciplinaires"
+  details: "*Actes de la recherche en sciences sociales*, no. 210, 2015."
+
+- id: "2009-pratiques-martiales-et-sports-de-combat"
+  year: 2009
+  authors: "Benoit Gaudin & Johan Heilbron (éd)"
+  title: "Pratiques martiales et sports de combat"
+  details: "*Actes de la recherche en sciences sociales*, no. 179, sept. 2009."
+
+- id: "2008-traditions-nationales-en-sciences-sociales"
+  year: 2008
+  authors: "Johan Heilbron (éd.)"
+  title: "Traditions nationales en sciences sociales"
+  details: "*Revue d’histoire des sciences humaines*, no. 18, 2008."
+
+- id: "2006-economies-de-la-recherche"
+  year: 2006
+  authors: "Julien Duval & Johan Heilbron (éd.)"
+  title: "Economies de la recherche"
+  details: "*Actes de la recherche en sciences sociales*, no. 164, 2006."
+
+- id: "2003-espaces-de-la-finance"
+  year: 2003
+  authors: "Jérôme Bourdieu, Johan Heilbron & Bénédicte Reynaud (éd.)"
+  title: "Espaces de la finance"
+  details: "*Actes de la recherche en sciences sociales*, no. 146-147, 2003."
+
+- id: "2002-la-circulation-internationale-des-idees"
+  year: 2002
+  authors: "Johan Heilbron & Gisèle Sapiro (éd.)"
+  title: "La circulation internationale des idées"
+  details: "*Actes de la recherche en sciences sociales*, no. 145, 2002."
+
+- id: "2002-la-traduction-les-echanges-litteraires-internationaux"
+  year: 2002
+  authors: "Johan Heilbron & Gisèle Sapiro (éd.)"
+  title: "La traduction: les échanges littéraires internationaux"
+  details: "*Actes de la recherche en sciences sociales*, no. 144, 2002."
+  also:
+    - "Spanish translation : Johan Heilbron y Gisèle Sapiro (coord.), *Traducción: los intercambios literarios internacionales*. Edición y estudio preliminar: Alejandrina Falcón. Traducción de: Alejandrina Falcón; Eugenia Pérez Alzueta; Ana Eugenia Vázquez. Temperley: Tren en Movimiento, 2026."

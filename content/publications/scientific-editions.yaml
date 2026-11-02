@@ -1,0 +1,27 @@
+# Scientific editions: from the section "Scientific editions" of Johan's gold index.
+# Maintained by an agent from content/publications/index-snapshot.txt; see CLAUDE.md.
+# pdf: a file name inside bib/scientific-editions/ (or a path starting with bib/).
+
+- id: "2022-retour-sur-la-reflexivite"
+  year: 2022
+  authors: "Pierre Bourdieu"
+  title: "Retour sur la réflexivité"
+  details: "Édition établie et présentée par Jérôme Bourdieu et Johan Heilbron, Paris, Édition École des Hautes Études en Sciences Sociales, 2022. [Translated in many languages]"
+
+- id: "2006-norbert-elias-collected-works"
+  year: 2006
+  authors: "Norbert Elias"
+  title: "Collected Works"
+  details: "Editorial Advisory Board: Eric Dunning, Johan Heilbron, Richard Kilminster and Stephen Mennell, Dublin: University College Dublin Press (18 volumes), 2006 - 2014."
+
+- id: "1997-norbert-elias-gesammelte-schriften"
+  year: 1997
+  authors: "Norbert Elias"
+  title: "Gesammelte Schriften"
+  details: "herausgegeben von Reinhard Blomert, Heike Hammer, Johan Heilbron, Annette Treibel und Nico Wilterdink, Frankfurt: Suhrkamp (19 Bänden), 1997 - 2010."
+
+- id: "1997-norbert-elias-werken"
+  year: 1997
+  authors: "Norbert Elias"
+  title: "Werken"
+  details: "een keuze uit het werk van Norbert Elias onder redactie van Johan Goudsblom, Johan Heilbron en Nico Wilterdink, Amsterdam: Boom (5 volumes published (1997-2007)."

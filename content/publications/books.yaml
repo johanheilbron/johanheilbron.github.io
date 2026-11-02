@@ -1,0 +1,171 @@
+# Books: from the section "Books / Ouvrages / Boeken / Brochures" of Johan's gold index.
+# Maintained by an agent from content/publications/index-snapshot.txt; see CLAUDE.md.
+# pdf: a file name inside bib/books/ (or a path starting with bib/).
+
+- id: "2022-pierre-bourdieu-et-l-art-de-l-invention"
+  year: 2022
+  authors: "Julien Duval, Johan Heilbron, Pernelle Issenhuth (dir.)"
+  title: "Pierre Bourdieu et l’art de l’invention scientifique. Enquêter au Centre de sociologie européenne (1959-1969)"
+  details: "Paris : Classiques Garnier (Bibliothèque des sciences sociales), 2022, (Classiques Jaunes), 2023."
+  link: "https://classiques-garnier.com/pierre-bourdieu-et-l-art-de-l-invention-scientifique-enqueter-au-centre-de-sociologie-europeenne-1959-1969.html"
+
+- id: "2020-dictionnaire-international-bourdieu"
+  year: 2020
+  authors: "Gisèle Sapiro (dir.)"
+  title: "Dictionnaire International Bourdieu"
+  details: "Comité éditorial : François Denord, Julien Duval, Mathieu Hauchecorne, Johan Heilbron, Franck Poupeau, Paris : CNRS Éditions, 2020."
+  link: "https://www.cnrseditions.fr/catalogue/philosophie-et-histoire-des-idees/dictionnaire-international-bourdieu/"
+
+- id: "2020-wie-herdenken-wij-op-4-mei"
+  year: 2020
+  authors: "Jaap Goudsmit, Johan Heilbron, Peter Ekamper, Timo van Barneveld, Béla Zsigmond"
+  title: "Wie herdenken wij op 4 mei? Visuele gids"
+  details: "Amsterdam: Pluim, 2020."
+  link: "https://uitgeverijpluim.nl/wie-herdenken-wij-op-4-mei"
+
+- id: "2018-new-directions-in-elite-studies"
+  year: 2018
+  authors: "Olav Korsnes, Johan Heilbron, Josh. Hjellbrekke, Felix Bühlmann, Mike Savage (eds)"
+  title: "New Directions in Elite Studies"
+  details: "London: Routledge, 2018."
+  link: "https://doi.org/10.4324/9781315163796"
+
+- id: "2018-the-social-and-human-sciences-in-global"
+  year: 2018
+  authors: "Johan Heilbron, Gustavo Sorá, Thibaud Boncourt (eds)"
+  title: "The Social and Human Sciences in Global Power Relations"
+  details: "London, Palgrave Macmillan, 2018."
+  link: "https://link.springer.com/book/10.1007/978-3-319-73299-2"
+
+- id: "2018-de-zaak-organon"
+  year: 2018
+  authors: "Jack Burgers, Johan Heilbron"
+  title: "De zaak Organon. Geneesmiddelen in de greep van bedrijvenpoker"
+  details: "Amsterdam: Prometheus, 2018 (1e en 2e druk)."
+  link: "https://uitgeverijprometheus.nl/nieuws/grote-aandacht-zaak-organon-burgers-en-heilbron-volkskrant/"
+
+- id: "2015-french-sociology"
+  year: 2015
+  title: "French Sociology"
+  details: "Ithaca/London: Cornell University Press, 2015."
+  also:
+    - "*La Sociologie française. Sociogenèse d’une tradition nationale*, Traduit de l’anglais par Françoise Wirth, Paris : CNRS Éditions, 2020. <https://www.cnrseditions.fr/catalogue/sciences-politiques-et-sociologie/la-sociologie-francaise/>"
+  link: "https://www.cornellpress.cornell.edu/book/9780801456633/french-sociology/#bookTabs=1"
+
+- id: "2015-nederlandse-kunst-in-de-wereld"
+  year: 2015
+  authors: "Ton Bevers, Bernard Colenbrander, Johan Heilbron, Nico Wilterdink"
+  title: "Nederlandse kunst in de wereld. Literatuur, architectuur, beeldende kunst, 1980-2013"
+  details: "Nijmegen: Vantilt, 2015."
+  link: "https://vantilt.nl/boeken/nederlandse-kunst-in-de-wereld/"
+
+- id: "2011-but-what-about-the-european-union"
+  year: 2011
+  title: "But What About the European Union of Scholars?"
+  details: "Wassenaar: Netherlands Institute for Advanced Study, 2011."
+
+- id: "2011-cultuur-en-ongelijkheid"
+  year: 2011
+  authors: "Christien Brinkgreve, Marcel van den Haak, Bart van Heerikhuizen, Johan Heilbron, Giselinde Kuipers (red.)"
+  title: "Cultuur en ongelijkheid"
+  details: "Diemen: Uitgeverij AMB, 2011."
+
+- id: "2010-transnational-cultural-exchange-and-globalization"
+  year: 2010
+  title: "Transnational Cultural Exchange and Globalization"
+  details: "University of Delhi, European Studies Programme, 2010."
+
+- id: "2006-naissance-de-la-sociologie"
+  year: 2006
+  title: "Naissance de la sociologie"
+  details: "Traduit du néerlandais par Paul Dirkx, Marseille : Agone (collection « Banc d’essais »), 2006."
+  also:
+    - "*O Nascimento da Sociologia*. Traduçao Marcia Valéria Martinez de Aguiar, Editora da Universidade de Sao Paolo (EDUSP), 2022."
+    - "Translation into Portugese, including an ‘Afterword to the Brazilian edition’ (p. 393-399)."
+  link: "https://shs.cairn.info/naissance-de-la-sociologie--2748900340"
+
+- id: "2005-wetenschappelijk-onderzoek-dilemmas-en-verleidingen"
+  year: 2005
+  title: "Wetenschappelijk onderzoek: dilemma's en verleidingen"
+  details: "Amsterdam: Koninklijke Nederlandse Akademie van Wetenschappen, 2005."
+  fulltext: "https://www.uu.nl/sites/default/files/brochure_wetenschappelijke_integriteit_knaw_20041076.pdf"
+
+- id: "2004-pour-une-histoire-des-sciences-sociales"
+  year: 2004
+  authors: "Johan Heilbron, Remi Lenoir & Gisèle Sapiro (red.)"
+  title: "Pour une histoire des sciences sociales. Hommage à Pierre Bourdieu"
+  details: "Paris: Fayard, 2004 ; 2ème édition, CNRS Éditions, coll. Biblis, 2026."
+
+- id: "2002-effectbejag"
+  year: 2002
+  title: "Effectbejag. Ontwikkelingen in financiële regimes en aandeelhoudersmacht"
+  details: "Amsterdam: Stichting AST, 2002."
+  fulltext: "http://rjh.ub.rug.nl/ast/article/view/24087/21539"
+
+- id: "2001-ongekende-meesterwerken"
+  year: 2001
+  authors: "Johan Heilbron, Bernhard Kruithof & Kitty Roukens (red.)"
+  title: "Ongekende meesterwerken"
+  details: "Amsterdam: Stichting AST, 2001."
+
+- id: "1999-de-draagbare-de-swaan"
+  year: 1999
+  authors: "Johan Heilbron & Geert de Vries (red.)"
+  title: "De draagbare De Swaan"
+  details: "Amsterdam: Prometheus, 1999, 346 p. Tweede, herziene en uitgebreide druk, 2008."
+
+- id: "1998-the-rise-of-the-social-sciences"
+  year: 1998
+  authors: "Johan Heilbron, Lars Magnusson & Björn Wittrock (eds)"
+  title: "The Rise of the Social Sciences and the Formation of Modernity: Conceptual Change in Context, 1750-1850"
+  details: "(Sociology of the Sciences Yearbook), Dordrecht: Kluwer Academic Publications, 1998 (hardback), 2001 (paperback)."
+
+- id: "1997-alles-verandert"
+  year: 1997
+  authors: "Nico Wilterdink, Johan Heilbron & Abram de Swaan (red.)"
+  title: "Alles verandert. Opstellen voor en over J. Goudsblom"
+  details: "Amsterdam: Meulenhoff, 1997."
+
+- id: "1996-de-verharding-van-het-wedstrijdvechten"
+  year: 1996
+  authors: "Maarten van Bottenburg, Johan Heilbron"
+  title: "De verharding van het wedstrijdvechten"
+  details: "Amsterdam: Diopter, 1996."
+
+- id: "1995-the-rise-of-social-theory"
+  year: 1995
+  title: "The Rise of Social Theory"
+  details: "[vertaling van *Het ontstaan van de sociologie* door S. Gogol, uitgebreid met een ‘Conclusion’], Cambridge: Polity Press, 1995 & Minneapolis: University of Minnesota Press, 1995."
+
+- id: "1995-hoofdstukken-uit-de-sociologie"
+  year: 1995
+  authors: "J. Goudsblom, Bart van Heerikhuizen & Johan Heilbron (red.)"
+  title: "Hoofdstukken uit de sociologie"
+  details: "Amsterdam: Amsterdam University Press, 1995."
+
+- id: "1995-mondialisering"
+  year: 1995
+  authors: "Johan Heilbron & Nico Wilterdink (red.)"
+  title: "Mondialisering: de wording van de wereldsamenleving"
+  details: "Groningen: Wolters-Noordhoff, 1995."
+
+- id: "1995-waarin-een-klein-land"
+  year: 1995
+  authors: "Johan Heilbron, Wouter de Nooy & Wilma Tichelaar (red.)"
+  title: "Waarin een klein land. Nederlandse cultuur in internationaal verband"
+  details: "Amsterdam: Prometheus, 1995."
+
+- id: "1992-kunst-leren"
+  year: 1992
+  title: "Kunst leren. Het werkplaatsmodel in de beeldende kunst"
+  details: "(met een voorwoord van drs. Hedy d’Ancona), Rijswijk: Ministerie van WVC, 1992."
+
+- id: "1990-het-ontstaan-van-de-sociologie"
+  year: 1990
+  title: "Het ontstaan van de sociologie"
+  details: "Amsterdam: Prometheus, 1990, 2de druk 1991."
+
+- id: "1983-sociologie-in-frankrijk"
+  year: 1983
+  title: "Sociologie in Frankrijk"
+  details: "Amsterdam: SISWO, 1983."

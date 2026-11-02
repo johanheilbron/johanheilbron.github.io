@@ -220,6 +220,7 @@ main {
 .listing section + section { margin-top: 4rem; }
 
 .works { list-style: none; margin: 0; padding: 0; }
+.work-text { min-width: 0; overflow-wrap: anywhere; }
 
 .work {
   padding: 1.6rem 0;
@@ -264,11 +265,14 @@ main {
 .work-meta .authors { display: block; color: var(--ink); }
 .work-meta .venue + .year::before { content: ", "; }
 
-.work-note {
-  margin: 0.6rem 0 0;
-  font-size: 1rem;
-  line-height: 1.5;
+.work-also {
+  margin: 0.35rem 0 0;
+  font-family: var(--sans);
+  font-size: 0.9rem;
+  line-height: 1.45;
+  color: var(--muted);
 }
+.work-also a, .work-meta a { color: inherit; }
 
 .work-actions {
   display: flex;

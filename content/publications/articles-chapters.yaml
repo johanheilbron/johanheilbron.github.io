@@ -1,0 +1,1648 @@
+# Articles and chapters: from the section "Articles, chapters, scientific book reviews"
+# of Johan's gold index (year headings 2026 to 1978).
+# Maintained by an agent from content/publications/index-snapshot.txt; see CLAUDE.md.
+# pdf: a file name inside bib/articles-chapters/ (or a path starting with bib/).
+
+- id: "2026-what-is-trans-national-in-history"
+  year: 2026
+  title: "What is (trans-)national in the history of sociology?"
+  details: "in *The Routledge International Handbook of the Histories of Sociology*, Edited by Stephan Moebius, Andrea Ploder, and Nicole Holzhauser, Oxon/New York: Routledge, 2026, pp. 296-305."
+
+- id: "2026-translation-economic-sociological-perspectives"
+  year: 2026
+  authors: "Johan Heilbron, Gisèle Sapiro"
+  title: "Translation: Economic and Sociological perspectives"
+  details: "In Shlomo Weber and Victor Ginsburgh (eds), *The Palgrave Handbook of Economics and Language*, Basingstoke, UK: Palgrave-MacMillan, Second edition, 2026, p. 363-393."
+  link: "https://doi.org/10.1007/978-3-031-88240-1_14"
+
+- id: "2026-avant-propos"
+  year: 2026
+  authors: "Johan Heilbron, Remi Lenoir, Gisèle Sapiro"
+  title: "Avant-propos"
+  details: "In J. Heilbron, R. Lenoir & G. Sapiro (red.), *Pour une histoire des sciences sociales. Hommage à Pierre Bourdieu*, Paris: CNRS Éditions, 2ème édition, 2026, p. 7-10."
+
+- id: "2025-are-social-sciences-europeanizing"
+  year: 2025
+  title: "Are the Social Sciences Europeanizing?"
+  details: "in Gert Verschraegen, Raf Verstraeten (eds), *Elgar Encyclopedia of Global Social Theory*, Cheltenham / Northampton: Edward Elgar, 2025, p. 114-118."
+  link: "https://doi.org/10.1007/978-3-031-88240-1_14"
+
+- id: "2025-introduction-pierre-bourdieu-some-remarks"
+  year: 2025
+  title: "Introduction to Pierre Bourdieu, ‘Some Remarks on the Conditions and Results of a Collective International Comparative Research Enterprise’"
+  details: "*Practical Sense. Newsletter of the Pierre Bourdieu Foundatiuon*, no. 2, June 2025, p. 7-8."
+  fulltext: "https://practicalsense.net/index.php/some-remarks-on-the-conditions-and-results-of-a-collective-international-comparative-research-enterprise/"
+
+- id: "2025-what-is-transnationalism-human-social"
+  year: 2025
+  title: "What is Transnationalism in the Human and Social Sciences? Propositions for Comparative Inquiry"
+  details: "*Practical Sense. Newsletter of the Pierre Bourdieu Foundation*, no. 2, June 2025, p. 38-45."
+  fulltext: "https://practicalsense.net/index.php/what-is-transnationalism-in-the-human-and-social-sciences/"
+
+- id: "2025-obituary-nico-wilterdink-1946-2025"
+  year: 2025
+  title: "Obituary Nico Wilterdink (1946-2025)"
+  details: "*Figurations. The Newsletter of the Norbert Elias Foundation*, nr. 63, July 2025, p. 43-47."
+  fulltext: "https://norbert-elias.com/wp-content/uploads/2025/07/Figurations_63.pdf"
+
+- id: "2025-nico-wilterdink-1946-2025-onderzoekspionier"
+  year: 2025
+  authors: "Johan Heilbron, Wouter Leenders, Simon Toussaint"
+  title: "Nico Wilterdink (1946-2025): onderzoekspionier van vermogensongelijkheid"
+  details: "*Economisch-Statistische Berichten* 110 (4846), 19 juni 2025, p. 287."
+  link: "https://esb.nu/in-memoriam-nico-wilterdink-onderzoekspionier-van-vermogensongelijkheid/"
+
+- id: "2025-abram-de-swaan"
+  year: 2025
+  authors: "Johan Heilbron, Geert de Vries"
+  title: "Abram de Swaan"
+  details: "*Wiley Blackwell Encyclopedia of Sociology*, edited by George Ritzer, Chris Rojek, Michael Ryan, 2nd Edition, 2025."
+  link: "https://doi.org/10.1002/9781405165518.wbeos1799"
+
+- id: "2025-privaat-kapitaal-en-publiek-onvermogen"
+  year: 2025
+  title: "Privaat kapitaal en publiek (on)vermogen"
+  details: "*De Nederlandse Boekengids*, 10 (1) 2025, 29-31."
+  link: "https://www.nederlandseboekengids.com/20250130-johan-heilbron/"
+
+- id: "2025-hogere-plunderkunde-private-equity-anti"
+  year: 2025
+  title: "Hogere plunderkunde. *Private equity* is anti-ondernemerschap"
+  details: "*De Groene Amsterdammer*, jrg 149, nr. 7, 2025, pp. 38-43."
+  link: "https://www.groene.nl/artikel/hogere-plunderkunde"
+
+- id: "2024-reconceptualizing-national-traditions-intellectual-history"
+  year: 2024
+  title: "Reconceptualizing National Traditions in Intellectual History"
+  details: "in Stefanos Geroulanos, Gisèle Sapiro (eds), *The Routledge Handbook of the History and Sociology of Ideas*, London/New York: Routledge, 2024, p. 220-235."
+  link: "https://www.taylorfrancis.com/chapters/edit/10.4324/9781003093046-16/reconceptualizing-national-traditions-intellectual-history-1-johan-heilbron"
+
+- id: "2024-politique-de-la-traduction-comment-etats"
+  year: 2024
+  authors: "Johan Heilbron, Gisèle Sapiro"
+  title: "Politique de la traduction. Comment les États façonnent les transferts culturels"
+  details: "in : Gisèle Sapiro et Tiphaine Samoyault (dir.), « Politiques de la traduction », *Politika*, mis en ligne le 20/09/2024."
+  fulltext: "https://www.politika.io/fr/article/politique-traduction-comment-etats-faconnent-transferts-culturels"
+
+- id: "2024-algerian-inquiries-and-colonial-sociology"
+  year: 2024
+  title: "Algerian Inquiries and Colonial Sociology. A Joint Interview with Amín Pérez and George Steinmetz"
+  details: "*Practical Sense. Newsletter of the Pierre Bourdieu Foundatiuon*, no. 1, December 2024, p. 15-28."
+  fulltext: "https://practicalsense.net/index.php/algerian-inquiries-and-colonial-sociology/"
+
+- id: "2024-colonial-sociology-historical-sociology-social"
+  year: 2024
+  title: "Colonial sociology and the historical sociology of the social and human sciences"
+  details: "*Social Science History*, 2024, 48 (1): 161-164."
+  link: "https://doi.org/10.1017/ssh.2023.27"
+
+- id: "2024-compte-rendu-auguste-comte-systeme-politique"
+  year: 2024
+  title: "Compte rendu d’Auguste Comte, *Système de politique positive ou Traité de sociologie, Instituant la religion de l’humanité*, Paris : Hermann Éditeurs, 2022, 2 tomes. Le Tome I (429 pages) est édité, présenté et annoté par Laurent Clauzade, le Tome II (422 pages) par Michel Bourdeau et Emmanuel Dhombres"
+  details: "*Revue philosophique*, no. 3, 2024, p. 396-396."
+
+- id: "2024-hoe-dekoloniseer-je-de-sociale-wetenschap"
+  year: 2024
+  title: "Hoe dekoloniseer je de sociale wetenschap? Pierre Bourdieu, Abdelmalek Sayad en de ‘koloniale sociologie’"
+  details: "*De Nederlandse Boekengids*, 9 (3) 2024, pp. 27-28."
+  link: "https://www.nederlandseboekengids.com/20240429-johan-heilbron/"
+
+- id: "2023-making-sense-of-globalizing-social-science"
+  year: 2023
+  title: "Making Sense of Globalizing Social Science"
+  details: "in: Didier Fassin and George Steinmetz (eds), *Social Sciences in the Looking Glass. Studies in the Production of Knowledge*, Durham: Duke University Press, 2023, p. 262-284."
+  link: "https://www.dukeupress.edu/the-social-sciences-in-the-looking-glass"
+
+- id: "2023-studying-long-term-processes-human-history"
+  year: 2023
+  authors: "Johan Heilbron, Nico Wilterdink"
+  title: "Studying Long-Term Processes in Human History"
+  details: "*Historical Social Research*, 48 (1) 2023, p. 7-34."
+  fulltext: "https://www.ssoar.info/ssoar/handle/document/86392"
+
+- id: "2023-voorwoord"
+  year: 2023
+  title: "Voorwoord"
+  details: "in Marlène Benquet, Théo Bourgeron, *Geldschieters. Investeringsfondsen, autoritarisme en de strijd tegen de Europese democratie*, Zutphen: Mazirel Pers, 2023, p. 7-10."
+
+- id: "2022-anti-sciences-sociales-tu-perds-ton"
+  year: 2022
+  authors: "Jérôme Bourdieu, Sara Dezalay, Julien Duval, Johan Heilbron, Franck Poupeau"
+  title: "Anti (sciences) sociales, tu perds ton sang-Froid !"
+  details: "*Actes de la recherche en sciences sociales*, no. 243-244, 2022, pp. 4-17."
+
+- id: "2022-vers-un-presentisme-reflexif-entretien"
+  year: 2022
+  title: "Vers un présentisme réflexif ? Entretien avec Johan Heilbron par Sébastien Zerilli"
+  details: "*Bulletin d’histoire de la sociologie*, no. 14, 2022, p. 20-25."
+  fulltext: "https://afs-socio.fr/wp-content/uploads/2019/11/Bulletin_d_histoire_de_la_sociologie_-_nA%C2%B014_-_dA%C2%A9cembre_2022.pdf"
+
+- id: "2022-introduction-de-la-vigilance-epistemologique-reflexivite"
+  year: 2022
+  authors: "Jérôme Bourdieu, Johan Heilbron"
+  title: "Introduction: de la vigilance épistémologique à la réflexivité"
+  details: "in: P. Bourdieu, *Retour sur la réflexivité,* Paris, Édition École des Hautes Études en Sciences Sociales, 2022, p. 9-31."
+
+- id: "2022-preface"
+  year: 2022
+  authors: "Jérôme Bourdieu, Johan Heilbron"
+  title: "Préface"
+  details: "in : Abram de Swaan, *La Société transnationale. Langues, cultures et politiques*, Paris, Seuil, 2022, p. 7-11."
+
+- id: "2022-preface-2"
+  year: 2022
+  authors: "Julien Duval, Johan Heilbron et Pernelle Issenhuth"
+  title: "Préface"
+  details: "in J. Duval, J. Heilbron, P. Issenhuth (dir.), *Pierre Bourdieu et l’art de l’invention scientifique. Enquêter au Centre de sociologie européenne (1959-1969)*, Paris : Classiques Garnier, 2022, p. 7-10."
+
+- id: "2022-introduction-comment-comprendre-une-oeuvre-scientifique"
+  year: 2022
+  title: "Introduction: comment comprendre une œuvre scientifique ?"
+  details: "in *Ibid*, p. 11-40."
+  link: "https://classiques-garnier.com/pierre-bourdieu-et-l-art-de-l-invention-scientifique-enqueter-au-centre-de-sociologie-europeenne-1959-1969-1.html"
+
+- id: "2022-une-recherche-anamnestique-le-bearn"
+  year: 2022
+  authors: "Johan Heilbron, Pernelle Issenhuth"
+  title: "Une recherche anamnestique, le Béarn"
+  details: "in : *Ibid*, p. 71-120."
+  link: "https://classiques-garnier.com/pierre-bourdieu-et-l-art-de-l-invention-scientifique-enqueter-au-centre-de-sociologie-europeenne-1959-1969-1.html"
+
+- id: "2022-au-centre-de-sociologie-europeenne"
+  year: 2022
+  title: "Au Centre de sociologie européenne"
+  details: "in *Ibid*., p. 121-173."
+  link: "https://classiques-garnier.com/pierre-bourdieu-et-l-art-de-l-invention-scientifique-enqueter-au-centre-de-sociologie-europeenne-1959-1969-1.html"
+
+- id: "2022-conclusion-un-retour-aux-sources"
+  year: 2022
+  authors: "Julien Duval, Johan Heilbron"
+  title: "Conclusion. « Un retour aux sources »"
+  details: "in *Ibid*., p. 403-423."
+  link: "https://classiques-garnier.com/pierre-bourdieu-et-l-art-de-l-invention-scientifique-enqueter-au-centre-de-sociologie-europeenne-1959-1969-1.html"
+
+- id: "2022-posfacio-a-edicao-brasileira"
+  year: 2022
+  title: "Posfácio à Edição Brasileira"
+  details: "in: J. Heilbron, *O Nascimento da Sociologia*. Traduçao Marcia Valéria Martinez de Aguiar, Editora da Universidade de Sao Paolo (EDUSP), 2022, p. 393-399."
+
+- id: "2021-the-emergence-of-social-theory"
+  year: 2021
+  title: "The Emergence of Social Theory"
+  details: "in: Peter Kivisto (ed), *The Cambridge Handbook of Social Theory. Volume one: A Contested Canon*, Cambridge, Cambridge University Press, 2021, pp. 1-23."
+  link: "https://doi.org/10.1017/9781316677445.002"
+
+- id: "2021-het-belastingstelsel-is-een-wangedrocht"
+  year: 2021
+  title: "Het belastingstelsel is een wangedrocht"
+  details: "*NRC Handelsblad*, 7-8 maart 2021, p. 8-9."
+  link: "https://www.nrc.nl/nieuws/2021/03/05/het-belastingstelsel-is-een-wangedrocht-a4034368"
+
+- id: "2021-het-grootstkapitaal-vermogensongelijkheid-in-de"
+  year: 2021
+  title: "Het grootstkapitaal: vermogensongelijkheid in de VS en Nederland"
+  details: "*De Nederlandse Boekengids*, 6 (1) 2021, p. 8-12."
+  also:
+    - "Herdrukt in: Merlijn Olnon (ed.), *Alles moet anders!*, Amsterdam: Mazirel Pers, 2022, p. 15-28."
+
+- id: "2021-de-pandemie-in-perspectief"
+  year: 2021
+  authors: "Jaap Goudsmit, Johan Heilbron"
+  title: "De pandemie in perspectief"
+  details: "*De Nederlandse Boekengids*, 6 (5) 2021, p. 7-9."
+  link: "https://www.nederlandseboekengids.com/20210902-jaap-goudsmit-johan-heilbron/"
+
+- id: "2020-das-versprechen-der-soziologie"
+  year: 2020
+  title: "Das Versprechen der Soziologie"
+  details: "*in*: Christian Fleck, Christian Dayé (Hg.), *Meilensteine der Soziologie*, Frankfurt/New York: Campus Verlag, 2020, p. 15-27."
+
+- id: "2020-obtaining-world-fame-from-the-periphery"
+  year: 2020
+  title: "Obtaining World Fame From the Periphery"
+  details: "*Dutch Crossing*, 44 (2) 2020, p. 136-144."
+  link: "https://doi.org/10.1080/03096564.2020.1747284"
+
+- id: "2020-capital-culturel-centre-de-sociologie-europeenne"
+  year: 2020
+  title: "‘Capital culturel’ ; ‘Centre de sociologie européenne’ ; ‘James Coleman’ ; ‘Comparatisme’ ; ‘École de Francfort’ ; ‘École des hautes études en sciences sociales’ ; ‘Enquête(s)’ ; ‘Espérances’ ; ‘Gerschenkron (Effet)’ ; ‘Groupe(s)’ ; ‘Albert Hirschman’ ; ‘Holisme’ ; ‘Intérêt’ ; ‘Kurt Lewin’ ; ‘Maxwell (Démon de)’ ; ‘*Méditations pascaliennes*’ ; ‘Montesquieu (Effet)’ ; ‘Ordre social’ ; ‘Talcott Parsons’ ; ‘Pays-Bas’ ; ‘Photographie’ ; Positivisme ; ‘Jean-Jacques Rousseau’ ; ‘Sciences humaines et sociales’ ; ‘Société(s)’ ; ‘Sociologie’ ; ‘Jean Stoetzel’ ; ‘*Theory and Society*’ ; ‘*Un art moyen*’"
+  details: "in : G. Sapiro (dir), *Dictionnaire international Bourdieu*, Paris, CNRS Éditions, 2020."
+  link: "https://www.cnrseditions.fr/catalogue/philosophie-et-histoire-des-idees/dictionnaire-international-bourdieu/"
+
+- id: "2020-de-gekaapte-amerikaanse-democratie"
+  year: 2020
+  title: "De gekaapte Amerikaanse democratie"
+  details: "*De Nederlandse Boekengids*, no. 5, 2020, p. 4-6."
+
+- id: "2019-institutionalization-ssh-disciplines-netherlands-1945-2015"
+  year: 2019
+  authors: "Rob Timans, Johan Heilbron"
+  title: "The Institutionalization of SSH Disciplines in the Netherlands: 1945-2015"
+  details: "in Christian Fleck, Matthias Duller, Victor Karady (eds), *Shaping Human Science Disciplines. Institutional Developments in Europe and Beyond*, London, Palgrave Macmillan, 2019, p. 189-246."
+
+- id: "2019-ranking-coordination-global-governance-access"
+  year: 2019
+  authors: "Sander Quak, Johan Heilbron, Jessica Meijer"
+  title: "Ranking, Coordination, and Global Governance: The Case of the Access to Medicine Index"
+  details: "*Business & Politics*, 21 (2) 2019, p. 172-204."
+
+- id: "2019-mixed-methods-research-what-it-is"
+  year: 2019
+  authors: "Rob Timans, Paul Wouters, Johan Heilbron"
+  title: "Mixed Methods Research: What it is, what it could be"
+  details: "*Theory and Society* , 48 (2) 2019, p. 193-216."
+  fulltext: "https://shs.hal.science/halshs-02115402/document"
+
+- id: "2019-how-to-interpret-auguste-comte"
+  year: 2019
+  title: "How to interpret Auguste Comte?"
+  details: "*Revue d’histoire des sciences humaines*, no. 34, 2019, p. 289-292."
+  fulltext: "https://journals.openedition.org/rhsh/3373"
+
+- id: "2019-compte-rendu-destutt-de-tracy-oeuvres"
+  year: 2019
+  title: "Compte rendu de Destutt de Tracy, *Oeuvres completes* (Tomes 2, 5, 6,7, 8)"
+  details: "*Revue Philosophique*, 2019, no 1, p. 70-72."
+
+- id: "2019-enduring-engagement-endangered-excluded-scholars"
+  year: 2019
+  authors: "Alice Crary, Johan Heilbron, Ian Jauslin"
+  title: "An Enduring Engagement with Endangered and Excluded Scholars"
+  details: "*Institute for Advanced Study – The Institute Letter*, Princeton, Spring 2019, p. 14-15. For the long version see https://www.sss.ias.edu/history-working-group"
+
+- id: "2019-het-plunderfeest-bij-de-hema"
+  year: 2019
+  title: "Het plunderfeest bij de HEMA"
+  details: "*De Nederlandse Boekengids*, 4 (3) juni-juli 2019, p. 4-5."
+
+- id: "2018-introduction"
+  year: 2018
+  authors: "Johan Heilbron, Felix Bühlmann, Johs. Hjellbrekke, Olav Korsnes, Mike Savage"
+  title: "Introduction"
+  details: "in: Olav Korsnes, Johan Heilbron, Johs. Hjellbrekke Felix Bühlmann, Mike Savage (eds), *New Directions in Elite Studies*, London: Routledge, 2018, p. 1-28."
+
+- id: "2018-degrees-of-transnationalization-case-dutch"
+  year: 2018
+  authors: "Rob Timans, Johan Heilbron"
+  title: "Degrees of transnationalization: the case of the Dutch business elite"
+  details: "in: Olav Korsnes, Johan Heilbron, Johs. Hjellbrekke Felix Bühlmann, Mike Savage (eds), *New Directions in Elite Studies*, London: Routledge, 2018, p. 46-72."
+
+- id: "2018-sociogenese-de-la-theorie-sociologique-de"
+  year: 2018
+  title: "Sociogenèse de la théorie sociologique de Pierre Bourdieu"
+  details: "*Zilsel – science, technique, société*, no. 3, 2018, p. 105-135."
+
+- id: "2018-introduction-social-human-sciences-global-power"
+  year: 2018
+  authors: "Johan Heilbron, Thibaud Boncourt, Gustavo Sorá"
+  title: "Introduction. The Social and Human Sciences in Global Power Relations"
+  details: "in Johan Heilbron, Gustavo Sorá, Thibaud Boncourt (eds.), *The Social and Human Sciences in Global Power Relations*, London, Palgrave Macmillan, 2018, p. 1-28."
+
+- id: "2018-globalization-european-research-social-sciences"
+  year: 2018
+  authors: "Johan Heilbron, Yves Gingras"
+  title: "The Globalization of European Research in the Social Sciences and Humanities (1980-2014): A Bibliometric Study"
+  details: "in: Johan Heilbron, Gustavo Sorá, Thibaud Boncourt (eds.) *The Social and Human Sciences in Global Power Relations*, London, Palgrave Macmillan, 2018, p. 29-58."
+
+- id: "2018-emerging-european-research-area-social"
+  year: 2018
+  authors: "Johan Heilbron, Thibaud Boncourt, Rob Timans"
+  title: "The Emerging European Research Area in the Social and Human Sciences"
+  details: "in: Johan Heilbron, Gustavo Sorá, Thibaud Boncourt (eds.) *The Social and Human Sciences in Global Power Relations*, London, Palgrave Macmillan, 2018, p. 153-181."
+
+- id: "2018-sociologie-histoire-de"
+  year: 2018
+  authors: "Johan Goudsblom, Johan Heilbron"
+  title: "Sociologie, histoire de"
+  details: "in : Christophe Charle et Daniel Roche (éd), *L’Europe – Encyclopédie historique*, Arles : Editions Actes Sud, 2018, p. 2055-2062."
+
+- id: "2018-politics-of-translation-how-states-shape"
+  year: 2018
+  authors: "Johan Heilbron, Gisèle Sapiro"
+  title: "Politics of Translation : How States Shape Cultural Transfers"
+  details: "in: Diana Roig-Sanz & Reine Meylaerts (eds), *Literary Translation and Cultural Mediators in ‘Peripheral’ Cultures: Customs Officers or Smugglers?* London: Palgrave Macmillan, 2018, p. 183-208."
+
+- id: "2018-professional-sociology-american-left-note"
+  year: 2018
+  authors: "Johan Heilbron, George Steinmetz"
+  title: "Professional Sociology and the American Left: A Note on Dylan Riley’s Academic Harassment of Bourdieu"
+  details: "[published under the title ‘A Defense of Bourdieu’], *Catalyst*, 2 (1) 2018, p. 35-49."
+  also:
+    - "Translated in Turkish: https://birdunyaceviriblog.wordpress.com/2025/02/09/bourdieunun-savunusu-johan-heilbron-george-steinmetz/"
+
+- id: "2018-la-sociologia-fatta-bene-intervista-con"
+  year: 2018
+  authors: "Norbert Elias"
+  title: "La sociologia… fatta bene. Intervista con Johan Heilbron"
+  details: "*Cambio. Rivista Sulle Trasformazioni Sociali*, *7* (14) 2018, p. 151-168."
+
+- id: "2018-hoe-de-vrije-markt-een-succesvol"
+  year: 2018
+  title: "Hoe de vrije markt een succesvol bedrijf ten gronde richtte. Interview"
+  details: "Erasmus Magazine, *Erasmus Magazine*, 25 Januari 2018."
+  link: "https://www.erasmusmagazine.nl/2018/01/25/hoe-de-vrije-markt-een-succesvol-nederlands-bedrijf-ten-gronde-richtte/"
+
+- id: "2017-auguste-comte-and-second-scientific-revolution"
+  year: 2017
+  title: "Auguste Comte and the Second Scientific Revolution"
+  details: "in: Andrew Wernick (ed), *The Anthem Companion to Auguste Comte*, London/New York: Anthem Press, 2017, p. 23-41."
+
+- id: "2017-pour-une-sociologie-historique-et-reflexive"
+  year: 2017
+  title: "Pour une sociologie historique et réflexive des sciences humaines et sociales"
+  details: "*Revue d’histoire des sciences humaines*, no. 30, 2017, p. 277-287."
+  fulltext: "https://journals.openedition.org/rhsh/681"
+
+- id: "2017-understanding-social-sciences-humanities-europe"
+  year: 2017
+  authors: "Johan Heilbron, Thibaud Boncourt, Rob Timans"
+  title: "Understanding the Social Sciences and Humanities in Europe"
+  details: "*Serendipities*, *Journal for the Sociology and History of the Social Sciences* 2 (1) 2017, p. 1-9."
+  fulltext: "http://serendipities.uni-graz.at/index.php/serendipities/issue/view/5"
+
+- id: "2017-european-journals-social-sciences-humanities"
+  year: 2017
+  authors: "Johan Heilbron, Madeline Bedecarré, Rob Timans"
+  title: "European Journals in the Social Sciences and Humanities"
+  details: "*Serendipities*, *Journal for the Sociology and History of the Social Sciences* 2 (1) 2017, p. 33-49."
+  fulltext: "http://serendipities.uni-graz.at/index.php/serendipities/issue/view/5"
+
+- id: "2017-indicators-internationalization-social-sciences-humanities"
+  year: 2017
+  authors: "Johan Heilbron, Thibaud Boncourt, Gisèle Sapiro, Gustavo Sorá, Victor Karady, Thomas Brisson, Laurent Jeanpierre, Kil-Ho Lee"
+  title: "Indicators of the Internationalization of the Social Sciences and Humanities"
+  details: "*Serendipities*, *Journal for the Sociology and History of the Social Sciences* 2 (1) 2017, p. 129-145."
+  fulltext: "http://serendipities.uni-graz.at/index.php/serendipities/issue/view/5"
+
+- id: "2017-for-a-historical-sociology-of-sociology"
+  year: 2017
+  title: "For a Historical Sociology of Sociology"
+  details: "*Newsletter of the ASA History of Sociology Section*, July 2017, p. 3-4."
+
+- id: "2017-how-to-improve-international-interdisciplinary-cooperation"
+  year: 2017
+  authors: "Johan Heilbron and Gisèle Sapiro"
+  title: "How to improve international and interdisciplinary cooperation in the Social Sciences and the Humanities"
+  details: "*European Policy Brief*, 2017."
+  fulltext: "https://shs.hal.science/halshs-01659552/document"
+  link: "http://interco-ssh.eu/"
+
+- id: "2016-translation-economic-sociological-perspectives"
+  year: 2016
+  authors: "Johan Heilbron, Gisèle Sapiro"
+  title: "Translation: Economic and Sociological perspectives"
+  details: "In Victor Ginsburgh, Shlomo Weber (eds), *The Palgrave Handbook of Economics and Language*, Basingstoke, UK: Palgrave-Mac Millan, 2016, p. 373-402."
+
+- id: "2016-auguste-comte-and-modern-epistemology"
+  year: 2016
+  title: "Auguste Comte and Modern Epistemology"
+  details: "in: Kristin Gjesdal (ed), *Debates in Nineteenth Century Philosophy: Essential Readings and Contemporary Responses*, New York: Routledge, 2016, p. 159-170."
+
+- id: "2016-les-sciences-sociales-et-l-universite"
+  year: 2016
+  title: "Les sciences sociales et l’Université"
+  details: "in : Christophe Charle, Laurent Jeanpierre (éd.), *La vie intellectuelle en France au XIXe-XXIe siècles*, Paris, Editions du Seuil, 2016, Vol. 1, p. 463-468."
+
+- id: "2016-las-ciencias-sociales-como-un-campo"
+  year: 2016
+  title: "Las ciencias sociales como un campo global emergente"
+  details: "*Papeles de Trabajo*, 10 (18) 2016, p. 21-48."
+
+- id: "2016-development-of-the-vaccine-industry-1800"
+  year: 2016
+  authors: "Sander Quak, Johan Heilbron, Jessica Meijer"
+  title: "The development of the vaccine industry, 1800-present. A historical-sociological field approach"
+  details: "*International Journal of Business and Globalisation*, 17 (2) 2016, p. 224-242."
+
+- id: "2016-handbook-of-indicators-of-institutionalization-academic"
+  year: 2016
+  authors: "Christian Fleck, Johan Heilbron, Victor Karady, Gisèle Sapiro"
+  title: "Handbook of Indicators of Institutionalization of Academic Disciplines in SSH"
+  details: "*Serendipities*, *Journal for the Sociology and History of the Social Sciences,* 1 (1) 2016."
+  fulltext: "http://serendipities.uni-graz.at/index.php/serendipities/issue/view/1"
+
+- id: "2016-primaire-preventie-van-chronische-ziekten"
+  year: 2016
+  authors: "Sander Quak, Johan Heilbron, Jessica Meijer"
+  title: "Primaire preventie van chronische ziekten: obstakels, stand van zaken en perspectieven"
+  details: "*Tijdschrift voor Gezondheidswetenschappen*, 94 (1) 2016, p. 34-40."
+
+- id: "2016-compte-rendu-yves-chevrel-histoire-des"
+  year: 2016
+  title: "Compte rendu de Yves Chevrel, Lieven D’hulst et Christine Lombez (dir.), *Histoire des traductions en langue française (*vol. 3, xixe siècle, 1815-1914, Lagrasse, Verdier, 2012)"
+  details: "*Annales : histoire, sciences sociales*, 71 (2) 2016, p. 531-533."
+
+- id: "2016-de-toekomst-van-de-polypil-een"
+  year: 2016
+  authors: "Sander Quak, Johan Heilbron, Jessica Meijer"
+  title: "De Toekomst van de Polypil: een Tussenstand"
+  details: "*Working paper Erasmus Center for Economic Sociology* (ECES), 2016, 8 pag."
+
+- id: "2015-interest-history-of-the-concept"
+  year: 2015
+  title: "Interest: History of the Concept"
+  details: "in: James D. Wright (editor-in-chief), *International Encyclopedia of the Social and Behavioral Sciences*, 2nd edition, Oxford: Elsevier, Vol. 12, 2015, p. 386–390."
+
+- id: "2015-sociology-history-of"
+  year: 2015
+  authors: "Johan Goudsblom, Johan Heilbron"
+  title: "Sociology: History of"
+  details: "in: James D. Wright (editor-in-chief), *International Encyclopedia of the Social and Behavioral Sciences*, 2nd edition, Oxford: Elsevier, 2015, Vol. 22, p. 989-995."
+
+- id: "2015-la-resilience-des-disciplines"
+  year: 2015
+  authors: "Johan Heilbron, Yves Gingras"
+  title: "La resilience des disciplines"
+  details: "*Actes de la recherche en sciences sociales*, no. 210, 2015, p. 4-9."
+
+- id: "2015-transgresser-les-frontieres-en-sciences-humaines"
+  year: 2015
+  authors: "Johan Heilbron, Anaïs Bokobza"
+  title: "Transgresser les frontières en sciences humaines et sociales en France"
+  details: "*Actes de la recherche en sciences sociales*, no. 210, 2015, p. 109-121."
+
+- id: "2015-innovation-institutionnelle-et-transmission-artistique"
+  year: 2015
+  title: "Innovation institutionnelle et transmission artistique"
+  details: "in Jacques Dubois, Pascal Durand & Yves Winkin (éd.), *Le symbolique et le social. La réception internationale de la pensée de Pierre Bourdieu*, Liège, Presses Universitaires de Liège, coll. “ Situations ”, 2015, p. 215-222."
+
+- id: "2015-auf-dem-weg-zu-einer-transnationalen"
+  year: 2015
+  authors: "Johan Heilbron, Nicolas Guilhot, Laurent Jeanpierre"
+  title: "Auf dem Weg zu einer transnationalen Geschichte der Sozialwissenschaften"
+  details: "in: Christian Dayé & Stephan Moebius (Hrsg), *Soziologiegeschichte, Wege und Ziele*, Frankfurt: Suhrkamp, 2015, p. 402-430."
+
+- id: "2015-young-durkheimians-temptation-fascism-marcel-deat"
+  year: 2015
+  authors: "Mathieu Desan, Johan Heilbron"
+  title: "Young Durkheimians and the Temptation of Fascism: The Case of Marcel Déat"
+  details: "*History of the Human Sciences*, 28 (3) 2015, p. 22-50."
+
+- id: "2015-fiction-from-the-periphery-how-dutch"
+  year: 2015
+  authors: "Nicky van Es, Johan Heilbron"
+  title: "Fiction from the Periphery: How Dutch Writers Enter the Field of English-language Literature"
+  details: "*Cultural Sociology*, 9 (3) 2015, p. 296-319."
+
+- id: "2015-inleiding"
+  year: 2015
+  authors: "Ton Bevers, Johan Heilbron, Nico Wilterdink"
+  title: "Inleiding"
+  details: "in: T. Bevers, B. Colenbrander, J. Heilbron, N. Wilterdink, *Nederlandse kunst in de wereld. Literatuur, architectuur, beeldende kunst, 1980-2013*, Nijmegen: Vantilt, 2015, p. 8-18."
+
+- id: "2015-in-de-wereldrepubliek-der-letteren"
+  year: 2015
+  authors: "Johan Heilbron, Nicky van Es"
+  title: "In de wereldrepubliek der letteren"
+  details: "in: T. Bevers, B. Colenbrander, J. Heilbron, N. Wilterdink, *Nederlandse kunst in de wereld. Literatuur, architectuur, beeldende kunst, 1980-2013*, Nijmegen: Vantilt, 2015, p. 20-54."
+
+- id: "2015-conclusies"
+  year: 2015
+  authors: "Ton Bevers, Johan Heilbron, Nico Wilterdink"
+  title: "Conclusies"
+  details: "T. Bevers, B. Colenbrander, J. Heilbron, N. Wilterdink, *Nederlandse kunst in de wereld. Literatuur, architectuur, beeldende kunst, 1980-2013*, Nijmegen: Vantilt, 2015, p. 378-399."
+
+- id: "2015-modelling-costs-and-benefits-of-prevention"
+  year: 2015
+  authors: "Sander Quak, Johan Heilbron"
+  title: "Modelling Costs and Benefits of Prevention"
+  details: "Research Report, Erasmus Center for Economic Sociology, Erasmus University Rotterdam, 30 March 2015, 12 p."
+
+- id: "2014-the-social-sciences-as-an-emerging"
+  year: 2014
+  title: "The Social Sciences as an Emerging Global field"
+  details: "*Current sociology* 62 (5) 2014, p. 685-703."
+
+- id: "2014-european-social-science-as-a-transnational"
+  year: 2014
+  title: "European Social Science as a Transnational Field of Research"
+  details: "In: Sokratis Koniordos & Alexandros-Andreas Kyrtsis (eds), *Routledge Handbook of European Sociology*, London: Routledge, 2014, p. 67-79."
+
+- id: "2014-origins-and-early-diffusion-of-shareholder"
+  year: 2014
+  authors: "Johan Heilbron, Jochem Verheul, Sander Quak"
+  title: "The Origins and Early Diffusion of ‘Shareholder value’ in the United States"
+  details: "*Theory and Society*, 43 (1) 2014, p. 1-22."
+
+- id: "2014-la-sociologie-quand-elle-est-bien-faite"
+  year: 2014
+  title: "La sociologie …quand elle est bien faite. Entretien avec Norbert Elias"
+  details: "*Actes de la recherche en sciences sociales*, no. 205, 2014, p. 4-19."
+
+- id: "2014-auguste-comte-and-second-scientific-revolution"
+  year: 2014
+  title: "Auguste Comte and the Second Scientific Revolution"
+  details: "*Sartoniana*, vol. 27, 2014, p. 149-168."
+
+- id: "2014-rise-and-spread-of-sustainable-investing"
+  year: 2014
+  authors: "Sander Quak, Johan Heilbron, Jessica Meijer"
+  title: "The Rise and Spread of Sustainable Investing in the Netherlands"
+  details: "*Journal of Sustainable Finance and Investment*, 4 (3) 2014, p. 249-265."
+
+- id: "2014-review-simonetta-falasca-zamponi-rethinking-the"
+  year: 2014
+  title: "Review of Simonetta Falasca-Zamponi, *Rethinking the Political: The Sacred, Aesthetic Politics, and the Collège de Sociologie* (Montreal: McGill-Queen’s University Press, 2011)"
+  details: "*Contemporary Sociology*, 43, 2014, p. 683-684."
+
+- id: "2014-compte-rendu-antoine-destutt-de-tracy"
+  year: 2014
+  title: "Compte rendu d’Antoine Destutt de Tracy, *Éléments d’idéologie* (Deuxième partie : Grammaire. Introduction, édition et notes par Claude Jolly, *Œuvres complètes*, Paris : Vrin, 2013, tome IV)"
+  details: "*Revue philosophique*, tome 213, no. 2, 2014, p. 259-260."
+
+- id: "2014-sturen-van-de-regionale-economie-in"
+  year: 2014
+  authors: "Jack Burgers, Johan Heilbron, Ikram Taouanza, Philip Van Gorcum, Felicia Kuijer"
+  title: "Sturen van de regionale economie in een tijdperk van mondialisering : de casus MSD/Organon"
+  details: "Rotterdam, EUR, Faculteit Sociale Wetenschappen, Afdeling Sociologie, 2014, 35 p."
+
+- id: "2014-het-pivot-park-ontstaan-ontwikkeling-en"
+  year: 2014
+  authors: "Philip van Gorcum, Johan Heilbron"
+  title: "Het Pivot Park : ontstaan, ontwikkeling en perspectief"
+  details: "Rotterdam, EUR, Faculteit Sociale Wetenschappen, Afdeling Sociologie, 2014, 24 p."
+
+- id: "2013-la-sociologie-decalee-de-norbert-elias"
+  year: 2013
+  title: "La sociologie décalée de Norbert Elias"
+  details: "*Revue de Synthèse*, 134 (2) 2013, p. 293-297."
+
+- id: "2013-sociology-done-in-the-right-way"
+  year: 2013
+  authors: "Norbert Elias"
+  title: "Sociology … done in the right way [Interview with Johan Heilbron]"
+  details: "in: Norbert Elias, *Collected Works*, University of Dublin Press, Volume 17, 2013, p. 141-159."
+
+- id: "2013-portret-abram-de-swaan-erelid-van"
+  year: 2013
+  title: "Portret Abram de Swaan, erelid van de NSV"
+  link: "http://www.nsv-sociologie.nl/?page_id=1040"
+
+- id: "2012-changing-labour-policies-of-transnational-corporations"
+  year: 2012
+  authors: "Johan Heilbron, Sander Quak"
+  title: "Changing Labour Policies of Transnational Corporations. The Decrease and Polarisation of Corporate Social Responsibility"
+  details: "in: R. van der Veen, M. Yerkes, P. Achterberg (eds), *The Transformation of Solidarity: Changing Risks and the Future of the Welfare State*, Amsterdam: Amsterdam University Press, 2012, p. 139-163."
+
+- id: "2012-transatlantic-entanglements"
+  year: 2012
+  title: "Transatlantic entanglements"
+  details: "*Sociologica - Italian Journal of Sociology online*, 2012, no. 3."
+  link: "http://www.sociologica.mulino.it"
+
+- id: "2012-a-ciencia-social-europeia-como-campo"
+  year: 2012
+  title: "A ciência social europeia como campo transnacional de pesquisa"
+  details: "*Mana : Estudos de Antropologia Social*, 18 (2), 2012, p. 289-308."
+
+- id: "2012-has-globalization-eroded-multinationals-responsibility-for"
+  year: 2012
+  authors: "Sander Quak, Johan Heilbron & Romke van der Veen"
+  title: "Has globalization eroded multinationals’ responsibility for their employees? A sociological analysis of the HR policies of multinational corporations"
+  details: "*Business & Politics*, 14 (3) 2012, p. 1- 21."
+
+- id: "2012-produire-et-traduire-la-science-sociale"
+  year: 2012
+  title: "Produire et traduire la science sociale dans un petit pays : le cas d’Abram de Swaan"
+  details: "in : Gisèle Sapiro (ed.),*Traduire la littérature et les sciences humaines : conditions et* obstacles, Paris : Ministère de la culture et de la communication/DEPS, 2012, p. 263-265."
+
+- id: "2012-le-declin-des-traductions-du-francais"
+  year: 2012
+  authors: "Marjolijn Voogel, Johan Heilbron"
+  title: "Le déclin des traductions du français aux Pays-Bas"
+  details: "in : Gisèle Sapiro (éd.), *Traduire la littérature et les sciences humaines : conditions et obstacles*, Paris : Ministère de la culture et de la communication/DEPS, 2012, p. 137-162."
+
+- id: "2012-comment-faire-decouvrir-une-litterature-inconnue"
+  year: 2012
+  authors: "Marjolijn Voogel, Johan Heilbron"
+  title: "Comment faire découvrir une littérature inconnue : les traductions du néerlandais en France"
+  details: "in : Gisèle Sapiro (éd.),*Traduire la littérature et les sciences humaines : conditions et obstacles*, Paris : Ministère de la culture et de la communication/DEPS, 2012, p. 233-247."
+
+- id: "2012-un-maitre-miraculeux-norbert-elias"
+  year: 2012
+  title: "Un maître miraculeux : Norbert Elias"
+  details: "*La Quinzaine littéraire*, 1 – 15 juin 2012, p. 24."
+
+- id: "2012-compte-rendu-destutt-de-tracy-premiers"
+  year: 2012
+  title: "Compte rendu de Destutt de Tracy, *Premiers écrits ; Sur l’éducation et l’instruction publique*. (Paris: Vrin, 2011)"
+  details: "*Revue philosophique*, 137 (1) 2012, p. 113."
+
+- id: "2011-practical-foundations-of-theorizing-in-sociology"
+  year: 2011
+  title: "Practical Foundations of Theorizing in Sociology: The Case of Pierre Bourdieu"
+  details: "in: Charles Camic, Neil Gross, & Michèle Lamont (eds), *Social Knowledge in the Making*, Chicago/London: Chicago University Press, 2011, p. 181-205."
+
+- id: "2011-a-cultural-globalization-of-pop-music"
+  year: 2011
+  title: "A Cultural Globalization of Pop Music? American, Dutch, French and German Popular Music Charts (1965-2006)"
+  details: "(met Peter Achterberg, Dick Houtman, Stef Aupers) *American Behavioral Scientist*, 55 (5) 2011, p. 589-608."
+
+- id: "2011-informalization-or-de-sportization-of-fighting"
+  year: 2011
+  title: "Informalization or de-sportization of fighting contests? A rejoinder to Raúl Sánchez García and Dominic Malcolm"
+  details: "(with M. van Bottenburg), *International Review for the Sociology of Sport*, 46 (1) 2011, p. 125-127."
+
+- id: "2011-aandeelhouders-eerst-de-opkomst-van"
+  year: 2011
+  title: "Aandeelhouders eerst! De opkomst van aandeelhouderswaarde in de Verenigde Staten"
+  details: "(met J. Verheul en S. Quak), *Sociologie*, 7 (1) 2011, p. 21-42."
+
+- id: "2011-inleiding"
+  year: 2011
+  title: "Inleiding"
+  details: "(met mederedacteuren), in: C. Brinkgreve, M. van den Haak, B. van Heerikhuizen, J. Heilbron, G. Kuipers (red.), *Cultuur en ongelijkheid*, Diemen: Uitgeverij AMB, 2011, p. 1-3."
+
+- id: "2011-de-weg-naar-wereldroem"
+  year: 2011
+  title: "De weg naar wereldroem"
+  details: "in: C. Brinkgreve, M. van den Haak, B. van Heerikhuizen, J. Heilbron, G. Kuipers (red.), *Cultuur en ongelijkheid*, Diemen: Uitgeverij AMB, 2011, p. 261-268."
+
+- id: "2011-la-france-est-devenue-un-pays"
+  year: 2011
+  title: "‘La France est devenue un pays moyen pour la Hollande’: le déclin des traductions du français aux Pays-Bas"
+  details: "(met Marjolijn Voogel), in: Gisèle Sapiro (éd), *Rapports de force et échelles de grandeur sur le marché de la traduction. Les obstacles à la circulation des œuvres de littérature et de sciences humaines à l’ère de la mondialisation*, Paris : Centre Européen de sociologie et de science politique, 2011, p. 123-146."
+
+- id: "2011-comment-decouvrir-une-litterature-inconnue-les"
+  year: 2011
+  title: "Comment découvrir une littérature inconnue ? Les traductions du néerlandais en France"
+  details: "(met Marjolijn Voogel), in: Gisèle Sapiro (éd), *Rapports de force et échelles de grandeur sur le marché de la traduction. Les obstacles à la circulation des œuvres de littérature et de sciences humaines à l’ère de la mondialisation*, Paris : Centre Européen de sociologie et de science politique, 2011, p. 209-223."
+
+- id: "2011-produire-et-traduire-la-science-sociale"
+  year: 2011
+  title: "Produire et traduire la science sociale dans un petit pays : le cas d’Abram de Swaan"
+  details: "in : Gisèele Sapiro (sous la dir de), (éd), *Rapports de force et échelles de grandeur sur le marché de la traduction. Les obstacles à la circulation des œuvres de littérature et de sciences humaines à l’ère de la mondialisation*, Paris : Centre Européen de sociologie et de science politique, 2011, p. 256-258."
+
+- id: "2011-entretien-avec-johan-heilbron-par-franceline"
+  year: 2011
+  title: "Entretien avec Johan Heilbron par Franceline Beretti"
+  details: "*Le Soir* (Belgique), le 22 février 2011."
+  link: "http://blog.lesoir.be/wp-content/webdocumentaires/freefight/"
+
+- id: "2011-een-europese-unie-van-onderzoekers"
+  year: 2011
+  title: "Een Europese unie van onderzoekers. Hoe belangrijk is Europa in de wetenschappelijke wereld?"
+  details: "*Sociologie Magazine*, 19 (3) 2011, p. 7-9."
+
+- id: "2010-towards-a-sociology-of-translation-book"
+  year: 2010
+  title: "Towards a Sociology of Translation: Book Translations as a Cultural World System"
+  details: "in: Mona Baker (ed), *Critical Readings in Translation Studies*, London: Routledge, 2010, p. 304-316."
+
+- id: "2010-foreword"
+  year: 2010
+  title: "Foreword"
+  details: "in Edlyne Anugwom, *Industrial Sociology, Concepts and Characteristics*, Nsukka: University of Nigeria Press, p. II-IV."
+
+- id: "2010-ja-het-klopt"
+  year: 2010
+  title: "Ja het klopt"
+  details: "in C. Adang, A.-M. Brandstetter. M.M. Leezenberg, Th. Coomans de Brachène (red), *Lieber Amicorum Guglielmo P. Blockmansio Dedicatum Ab Sociis Niasciensorum Anno MMX*, Wassenaar, Verlagspress, 2010, p. 33."
+
+- id: "2010-nieuwe-geneesmiddelen-ontwikkel-je-het-best"
+  year: 2010
+  title: "Nieuwe geneesmiddelen ontwikkel je het best zonder staatsbemoeienis"
+  details: "*NRC Handelsblad* 28-29 augustus 2010."
+
+- id: "2009-sociology-and-positivism-in-the-nineteenth"
+  year: 2009
+  title: "Sociology and positivism in the nineteenth century: the vicissitudes of the Société de sociologie (1872-1874)"
+  details: "*History of the Human Sciences*, 22 (4), 2009, p. 30-62."
+
+- id: "2009-dans-la-cage-genese-et-dynamique"
+  year: 2009
+  title: "Dans la cage. Genèse et dynamique des « combats ultimes »"
+  details: "(ave Maarten van Bottenburg), *Actes de la recherche en sciences sociales*, 179, 2009, p. 32-45."
+
+- id: "2009-pour-une-histoire-transnationale-des-sciences"
+  year: 2009
+  title: "Pour une histoire transnationale des sciences sociales"
+  details: "(avec Nicolas Guilhot et Laurent Jeanpierre), *Sociétés contemporaines*, 2009/1 – no.73, p. 121-145."
+
+- id: "2009-production-culturelle-et-ordre-symbolique"
+  year: 2009
+  title: "Production culturelle et ordre symbolique"
+  details: "(avec Gisèle Sapiro), *Regards sociologiques*, no. 37-38, 2009, p. 5-8."
+
+- id: "2009-por-uma-sociologia-da-traducao-balanco"
+  year: 2009
+  title: "Por uma sociologia da tradução : balanço e perspectivas"
+  details: "(con Gisèle Sapiro), *Graphos*, 11 (2) 2009, p. 13-28."
+
+- id: "2009-comment-on-jean-michel-chapoulie"
+  year: 2009
+  title: "Comment on Jean-Michel Chapoulie"
+  details: "*Sociologica. Italian Journal of Sociology Online*, no. 2-3, 2009."
+  link: "http://www.sociologica.mulino.it"
+
+- id: "2009-towards-a-sociology-of-translation-book"
+  year: 2009
+  title: "Towards a Sociology of Translation: Book Translations as a Cultural World System"
+  details: "in: Mona Baker (ed), *Translation Studies: Critical Concepts in Linguistics*, London: Routledge ( 4 Volumes), 2009, Volume 2 (chapter 26)."
+
+- id: "2009-social-sciences"
+  year: 2009
+  title: "Social sciences"
+  details: "(met Nicolas Guilhot en Laurent Jeanpierre), in Akira Iriye & Pierre-Yves Saunier (eds), *The Palgrave Dictionary of Transnational History*, Palgrave Macmillan, 2009, pp. 953-959."
+
+- id: "2009-le-systeme-mondial-des-traductions"
+  year: 2009
+  title: "Le système mondial des traductions"
+  details: "in G. Sapiro (éd.), *Les contradictions de la globalisation éditoriale*, Paris, Éditions du Nouveau Monde, 2009, p. 253-274."
+
+- id: "2009-repenser-la-question-des-traditions-nationales"
+  year: 2009
+  title: "Repenser la question des traditions nationales en sciences sociales"
+  details: "in G. Sapiro (éd.), *L’espace intellectuel en Europe. De la formation des États-nations à la mondialisation XIXe-XXe siècles*, Paris : La Découverte, 2009, p. 301-317."
+  also:
+    - "-- Translated in Bulgarian, « Da preosmislim vaprosa za natzionalnite traditzii v sotzialnite nauki,\" *Sotziologitcheski problemi* (Sofia) 2009, no. 1-2, pp. 60-74."
+
+- id: "2009-internationalisation-des-sciences-sociales-les"
+  year: 2009
+  title: "Internationalisation des sciences sociales : les leçons d’une histoire transnationale"
+  details: "(avec Nicolas Guilhot et Laurent Jeanpierre), in G. Sapiro (éd), *L’espace intellectuel en Europe. De la formation des États-nations à la mondialisation mondialisation XIXe-XXe siècles*, Paris : La Découverte, 2009, p. 319-346."
+
+- id: "2009-la-sociologie-europeenne-existe-t-elle"
+  year: 2009
+  title: "La sociologie européenne existe-t-elle?"
+  details: "in G. Sapiro (éd), *L’espace intellectuel en Europe. De la formation des États-nations à la mondialisation XIXe-XXe siècles*, Paris : La Découverte, 2009, p. 347-358."
+
+- id: "2009-l-internationalisation-de-la-recherche-en"
+  year: 2009
+  title: "L’internationalisation de la recherche en sciences sociales et humaines en Europe (1980-2006)"
+  details: "(avec Yves Gingras), in G. Sapiro (éd.), *L’espace intellectuel en Europe. De la formation des États-nations à la mondialisation XIXe-XXe siècles*, Paris : La Découverte, 2009, p. 359-388."
+
+- id: "2009-in-de-ban-van-innovatie"
+  year: 2009
+  title: "In de ban van innovatie"
+  details: "*Academische boekengids*, nr. 76, september 2009, p. 21-24."
+
+- id: "2009-amerikaanse-impressies"
+  year: 2009
+  title: "Amerikaanse impressies"
+  details: "*SOFA*, Magazine van de Faculteit Sociale Wetenschappen, Erasmus Universiteit, nr. 4, 2009."
+  link: "http://www.eur.nl/fsw/sofa/sofaezine04/heilbron04/"
+
+- id: "2009-gladiateurs-du-troisieme-millenaire"
+  year: 2009
+  title: "Gladiateurs du troisième millénaire"
+  details: "(met M. van Bottenburg), *Le monde diplomatique*, Octobre 2009, 56, No. 667, p. 3 (also in the 26 other language editions of the journal)."
+
+- id: "2008-toward-a-transnational-history-of-the"
+  year: 2008
+  title: "Toward a Transnational History of the Social Sciences"
+  details: "(with Nicolas Guilhot and Laurent Jeanpierre), *Journal of the History of the Behavioral Sciences*, 44 (2) 2008, p. 146-160."
+
+- id: "2008-qu-est-ce-qu-une-tradition"
+  year: 2008
+  title: "Qu’est-ce qu’une tradition nationale en sciences sociales ?"
+  details: "*Revue d’histoire des sciences humaines*, no. 18, 2008, p. 3-16."
+
+- id: "2008-responding-to-globalization-the-development-of"
+  year: 2008
+  title: "Responding to Globalization : the Development of Book Translations in France and the Netherlands"
+  details: "in Anthony Pym, Miriam Shlesinger, Daniel Simeoni (eds), *Beyond Descriptive Translation Studies. Investigations in Homage to Gideon Toury*, Amsterdam/Philadelphia: John Benjamins, 2008, p. 187-197."
+
+- id: "2008-la-traduction-comme-vecteur-des-echanges"
+  year: 2008
+  title: "La traduction comme vecteur des échanges culturels internationaux"
+  details: "(met Gisèle Sapiro) in Gisèle Sapiro (éd.), *Translatio. Le marché de la traduction en France à l'heure de la mondialisation*. Paris : CNRS Éditions, 2008, p. 25-44."
+
+- id: "2008-l-evolution-des-echanges-culturels-entre"
+  year: 2008
+  title: "L’évolution des échanges culturels entre la France et les Pays-Bas face à l’hégémonie de l’anglais"
+  details: "in Gisèle Sapiro (éd.), *Translatio. Le marché de la traduction en France à l'heure de la mondialisation*. Paris : CNRS Éditions, 2008, p. 311-331."
+
+- id: "2008-review-of-lucien-karpik-l-economie"
+  year: 2008
+  title: "Review of Lucien Karpik (*L’économie des singularités*, Paris, Gallimard, 2007)"
+  details: "*Economic Sociology*, 9 (2), 2008, p. 24-25."
+
+- id: "2008-compte-rendu-de-lelita-oliveira-benoit"
+  year: 2008
+  title: "Compte rendu de Lelita Oliveira Benoit (*Sociologie comtienne: genèse et devenir,* Paris, L’Harmattan 2007)"
+  details: "*Revue philosophique*, nr. 4, 2008, p. 506-507."
+
+- id: "2007-where-did-the-new-economic-sociology"
+  year: 2007
+  title: "Where Did the New Economic Sociology Come From ?"
+  details: "(met B. Convert), *Theory and Society*, 36 (1) 2007, p. 31-54."
+
+- id: "2007-sociologie-et-positivisme-au-xixe-siecle"
+  year: 2007
+  title: "Sociologie et positivisme au XIXe siècle: les vicissitudes de la Société de sociologie (1872-1874)"
+  details: "*Revue française de sociologie*, 48 (2) 2007, p. 307-331."
+
+- id: "2007-de-achterban-van-de-avant-garde"
+  year: 2007
+  title: "De achterban van de avant-garde. Over de geopolitiek van het modernisme in de kunsten"
+  details: "in Annet Mooij, David Bos en Sonja van ’t Hof (red.), *Grenzeloos nieuwsgierig. Opstellen voor en over Abram de Swaan,* Amsterdam: Bert Bakker, 2007, p. 133-142."
+
+- id: "2007-outline-for-a-sociology-of-translation"
+  year: 2007
+  title: "Outline for a Sociology of Translation: Current Issues and Future Prospects"
+  details: "(with Gisèle Sapiro), in: Michaela Wolf & Alexandra Fukari (eds.), *Constructing a Sociology of Translation,* Amsterdam: John Benjamins, 2007, p. 93-107."
+
+- id: "2007-la-traduction-comme-vecteur-des-echanges"
+  year: 2007
+  title: "La traduction comme vecteur des échanges culturels internationaux"
+  details: "(met Gisèle Sapiro) in Gisèle Sapiro (éd.), *La traduction comme vecteur des échanges culturels internationaux : circulation des livres de littérature et de sciences sociales et évolution de la place de la France sur le marché mondial de l’édition de 1980 à 2004*, Paris, Centre de sociologie européenne, 2007, p. 11-26."
+
+- id: "2007-l-evolution-des-echanges-culturels-entre"
+  year: 2007
+  title: "L’évolution des échanges culturels entre la France et les Pays-Bas : le cas des traductions"
+  details: "in Gisèle Sapiro (éd.), *La traduction comme vecteur des échanges culturels internationaux : circulation des livres de littérature et de sciences sociales et évolution de la place de la France sur le marché mondial de l’édition de 1980 à 2004*, Paris, Centre de sociologie européenne, 2007, p. 133-154."
+
+- id: "2006-de-sportization-of-fighting-contests-the"
+  year: 2006
+  title: "De-sportization of Fighting Contests. The Origins and Dynamics of No Holds Barred Events and the Theory of Sportization"
+  details: "(met M. van Bottenburg), *International Review for the Sociology of Sport*, 41 (3/4) 2006, p. 259-282."
+  fulltext: "https://dspace.library.uu.nl/handle/1874/305739"
+
+- id: "2006-les-enjeux-de-la-transformation-de"
+  year: 2006
+  title: "Les enjeux de la transformation de la recherche"
+  details: "(met J. Duval), *Actes de la recherche en sciences sociales*, no. 164, 2006, p. 4-9."
+
+- id: "2006-sociology-and-its-discontents"
+  year: 2006
+  title: "Sociology and its Discontents"
+  details: "in: Mikael Börjesson et al. (red.), *Fältanteckningar. Utbildnings- och kultursociologiska texter tillägnade Donald Broady*, Stockholm: Elanders Gotab, 2006, p. 277-286."
+
+- id: "2006-theoretische-vernieuwing-in-de-economische-sociologie"
+  year: 2006
+  title: "Theoretische vernieuwing in de economische sociologie"
+  details: "in: Godfried Engbersen & Jos de Haan (red.), *Balans en toekomst van de sociologie*, Amsterdam: Amsterdam University Press, 2006, p. 73-83."
+
+- id: "2006-comment-penser-la-genese-des-sciences"
+  year: 2006
+  title: "Comment penser la genèse des sciences sociales ? Un entretien avec Johan Heilbron"
+  details: "*Revue d’histoire des sciences humaines*, nr. 15, 2006, p. 103-116."
+
+- id: "2006-compte-rendu-de-marcel-mauss-on"
+  year: 2006
+  title: "Compte rendu de Marcel Mauss, *On Prayer* (New York/Oxford: Durkheim Press/Berghahn Books, 2003)"
+  details: "in : *Revue philosophique*, nr. 1, 2006, p. 108-109."
+
+- id: "2005-taking-stock-toward-a-historical-sociology"
+  year: 2005
+  title: "Taking Stock. Toward a Historical Sociology of Financial Regimes"
+  details: "*Economic Sociology*, 7 (1) 2005, p. 3-17."
+
+- id: "2005-innovation-institutionnelle-et-transmission-artistique"
+  year: 2005
+  title: "Innovation institutionnelle et transmission artistique"
+  details: "in Jacques Dubois, Pascal Durand & Yves Winkin (éd.), *Le symbolique et le social. La réception internationale de la pensée de Pierre Bourdieu*, Liège, Éditions de l’Université de Liège, coll. “ Sociopolis ”, 2005, p. 207-214."
+
+- id: "2005-economic-sociology-in-france"
+  year: 2005
+  title: "Economic Sociology in France"
+  details: "in Richard Swedberg (ed), *New Developments in Economic Sociology*, Cheltenham: Edward Elgar, 2005, Vol. 1, p. 321-347."
+  also:
+    - "-- Translated into Russian in anthology on Economic sociology edited by Vadim Radaev"
+
+- id: "2005-la-reinvention-americaine-de-la-sociologie"
+  year: 2005
+  title: "La réinvention américaine de la sociologie économique"
+  details: "(avec Bernard Convert), *L’Année sociologique*, 55 (2) 2005, p. 329-364."
+  also:
+    - "-- Translated into Russian in: *Ekomicheskaya sociologiya* (Economic Sociology), Vol. 6. No. 5. 2005, p. 28-52."
+
+- id: "2005-das-regime-der-disziplinen-zu-einer"
+  year: 2005
+  title: "Das Regime der Disziplinen. Zu einer historischen Soziologie disziplinärer Wissenschaft"
+  details: "in H. Joas & H. Kippenberg (Hrsg.), *Interdisziplinarität als Lehrprozess*, Göttingen: Wallstein Verlag, 2005, p. 23-45."
+
+- id: "2005-preface-a-l-edition-francaise"
+  year: 2005
+  title: "Préface à l’édition française"
+  details: "(avec Jérôme Bourdieu) in: Viviana Zelizer, *La signification sociale de l’argent*, Paris: Seuil (Collection Liber), traduit de l’américain par Christian Cler, 2005, p. 11-19."
+
+- id: "2005-compte-rendu-de-michel-bourdeau-jean"
+  year: 2005
+  title: "Compte rendu de Michel Bourdeau, Jean-François Braunstein, Annie Petit (sous la direction de), *Auguste Comte aujourd’hui* (Paris : Editions KIME, 2003)"
+  details: "in : *Revue philosophique*, no. 3, 2005."
+
+- id: "2004-a-regime-of-disciplines-toward-a"
+  year: 2004
+  title: "A Regime of Disciplines: Toward a Historical Sociology of Disciplinary Knowledge"
+  details: "in Charles Camic & Hans Joas (eds), *The Dialogical Turn : New Roles for Sociology in the Postdisciplinary Age*, Lanham: Rowman & Littlefield, 2004, p. 23-42."
+
+- id: "2004-the-rise-of-social-science-disciplines"
+  year: 2004
+  title: "The Rise of Social Science Disciplines in France"
+  details: "*Revue européenne des sciences sociales*, XLII, no. 129, 2004, p. 145-157."
+  fulltext: "https://journals.openedition.org/ress/394"
+
+- id: "2004-pour-une-histoire-des-sciences-sociales-chapter"
+  year: 2004
+  title: "Pour une histoire des sciences sociales"
+  details: "(met R. Lenoir & G. Sapiro), in Johan Heilbron, Remi Lenoir & Gisèle Sapiro (red.), *Pour une histoire des sciences sociales. Hommage à Pierre Bourdieu*, Paris : Fayard, 2004, p. 7-16."
+
+- id: "2004-genese-de-la-sociologie-economique-americaine"
+  year: 2004
+  title: "Genèse de la sociologie économique américaine"
+  details: "(avect B. Convert), in Johan Heilbron, Remi Lenoir & Gisèle Sapiro (red.), *Pour une histoire des sciences sociales. Hommage à Pierre Bourdieu*, Paris: Fayard, 2004, p. 223-241."
+
+- id: "2004-editorischer-bericht"
+  year: 2004
+  title: "Editorischer Bericht"
+  details: "in Norbert Elias, *Ueber die Zeit* (Band 8 der *Gesammelte Schriften*, bearbeitet von Johan Heilbron), Frankfurt am Main: Suhrkamp, 2004, p. 253."
+
+- id: "2004-compte-rendu-de-bernard-lepetit-chistian"
+  year: 2004
+  title: "Compte rendu de Bernard Lepetit & Chistian Topalov (éd), *La ville des sciences sociales* (Paris : Belin, 2001)"
+  details: "in : *Sociologie du Travail*, 46, 2004, p. 111-113."
+
+- id: "2004-review-of-carlo-trigilia-economic-sociology"
+  year: 2004
+  title: "Review of Carlo Trigilia, *Economic Sociology: State, Market, and Society in Modern Capitalism* (Oxford: Blackwell, 2002)"
+  details: "in *European Journal of Social Theory*, 7 (2) 2004, p. 255-257."
+
+- id: "2003-social-thought-and-natural-science"
+  year: 2003
+  title: "Social Thought and Natural Science"
+  details: "in *The Cambridge History of Science*, vol. 7, edited by Theodore Porter & Dorothy Ross, Cambridge: Cambridge University Press, 2003, p. 40-56."
+
+- id: "2003-le-cours-des-actions"
+  year: 2003
+  title: "Le cours des actions"
+  details: "*Cahiers Lillois d’Economie et de Sociologie*, No. 41 - 42, 2003, p. 79-108."
+
+- id: "2003-les-structures-sociales-de-la-finance"
+  year: 2003
+  title: "Les structures sociales de la finance"
+  details: "(met Jérôme Bourdieu en Bénédicte Reynaud), *Actes de la recherche en sciences sociales*, no. 146-147, 2003, p. 3-7."
+  fulltext: "https://www.persee.fr/doc/arss_0335-5322_2003_num_146_1_2783"
+
+- id: "2003-veranderende-kennisregimes-en-het-onbehagen"
+  year: 2003
+  title: "Veranderende kennisregimes en het onbehagen in de academie. Kanttekeningen bij de malaise in het Hoger Onderwijs"
+  details: "*Amsterdams sociologisch tijdschrift,* 30 (3) 2003, p. 315-329."
+  fulltext: "http://rjh.ub.rug.nl/ast/article/view/24181/21632"
+
+- id: "2003-editorischer-bericht"
+  year: 2003
+  title: "Editorischer Bericht"
+  details: "in Norbert Elias, *Engagement und Distanzierung* (Band 8 der *Gesammelte Schriften*, bearbeitet von Johan Heilbron), Frankfurt: Suhrkamp, 2003, p. 372-373."
+
+- id: "2003-compte-rendu-de-michel-bourdeau-francois"
+  year: 2003
+  title: "Compte rendu de Michel Bourdeau & François Chazel (eds), *Auguste Comte et l’idée de science de l’homme* (Paris : L’Harmattan, 2002)"
+  details: "*Revue philosophique*, 128 (1) 2003, p. 103-104."
+
+- id: "2003-review-of-abram-de-swaan-words-of"
+  year: 2003
+  title: "Review of Abram de Swaan, *Words of the World : The Global Language System* (Cambridge : Polity Press, 2001)"
+  details: "in *Current Issues in Language Planning*, 4 (2) 2003, p. 174-177."
+
+- id: "2003-bespreking-van-paul-de-beer-werk"
+  year: 2003
+  title: "Bespreking van Paul de Beer, *Werk, een uitgewerkt medicijn? Arbeidsparticipatie, welvaart, en ongelijkheid in de post-industriële samenleving* (Nijmegen: SUN 2001)"
+  details: "*Amsterdams sociologisch tijdschrift* 30 (3) 2003, p. 429-30."
+
+- id: "2003-bespreking-van-pieterjan-van-delden-en"
+  year: 2003
+  title: "Bespreking van Pieterjan van Delden en Maarten Veraart, *Publieke dienstverlening in de markt* (Amsterdam: Business contact, 2001)"
+  details: "*Amsterdams sociologisch tijdschrift* 30 (3) 2003, p. 431-432."
+
+- id: "2003-affinites-electives"
+  year: 2003
+  title: "Affinités électives"
+  details: "(entretien avec Johan Heilbron), *Libération*, 9 octobre 2003."
+
+- id: "2002-la-bibliometrie-genese-et-usages"
+  year: 2002
+  title: "La bibliométrie, genèse et usages"
+  details: "*Actes de la recherche en sciences sociales*, no. 141-142, 2002, p. 78-79."
+
+- id: "2002-in-memoriam-pierre-bourdieu"
+  year: 2002
+  title: "In memoriam Pierre Bourdieu"
+  details: "*Amsterdams sociologisch tijdschrift*, 29 (2) 2002, p. 175-186."
+  fulltext: "http://rjh.ub.rug.nl/ast/article/view/24113/21564"
+
+- id: "2002-obituary-pierre-bourdieu-1930-2002"
+  year: 2002
+  title: "Obituary Pierre Bourdieu (1930-2002)"
+  details: "*Figurations*, no. 17, 2002, p. 15-16."
+
+- id: "2002-la-traduction-litteraire-un-objet-sociologique"
+  year: 2002
+  title: "La traduction littéraire, un objet sociologique"
+  details: "(avec Gisèle Sapiro), *Actes de la recherche en sciences sociales*, no. 144, 2002, p. 3-5."
+  also:
+    - "Translated into Spanish in *El Lenguas*, Número 8 / Agosto de 2022, pp. 20-23"
+  fulltext: "https://www.persee.fr/doc/arss_0335-5322_2002_num_144_1_2803"
+
+- id: "2002-review-of-herbert-kalthoff-r-rottenburg"
+  year: 2002
+  title: "Review of Herbert Kalthoff, R. Rottenburg, H.-J. Wagener (eds), *Facts and figures: economic representations and practices* (Oekonomie und Gesellschaft Jahrbuch 16, Marburg: Metropolis Verlag, 2000)"
+  details: "in *European Societies*, 4 (4) 2002, p. 419-21."
+
+- id: "2002-compte-rendu-de-mark-granovetter-le"
+  year: 2002
+  title: "Compte rendu de Mark Granovetter, *Le marché autrement : les réseaux dans l’économie* (Paris : Desclée de Brouwer, 2000)"
+  details: "*Sociologie du Travail*, 44 (4) 2002, p. 593-96."
+
+- id: "2001-economic-sociology-in-france"
+  year: 2001
+  title: "Economic Sociology in France"
+  details: "*European Societies*, 3 (1) 2001, p. 41-67."
+
+- id: "2001-interest-history-of-the-concept"
+  year: 2001
+  title: "Interest: History of the Concept"
+  details: "*International Encyclopedia of the Social and Behavioral Sciences*, Amsterdam: Elsevier, 2001, vol.11, p. 7708-7712."
+
+- id: "2001-sociology-history-of"
+  year: 2001
+  title: "Sociology, History of"
+  details: "(met J. Goudsblom), *International Encyclopedia of the Social and Behavioral Sciences*, Amsterdam: Elsevier, 2001, vol. 21, p. 14574-14580."
+
+- id: "2001-echanges-culturels-transnationaux-et-mondialisation"
+  year: 2001
+  title: "Echanges culturels transnationaux et mondialisation : quelques réflexions"
+  details: "*Regards sociologiques*, no. 22, 2001, p. 141-154."
+
+- id: "2001-effectbejag-ontwikkelingen-in-financiele-regimes"
+  year: 2001
+  title: "Effectbejag. Ontwikkelingen in financiële regimes en aandeelhoudersmacht"
+  details: "*Amsterdams Sociologisch Tijdschrift*, 28 (4) 2001, p. 415-444."
+  fulltext: "http://rjh.ub.rug.nl/ast/article/view/24087/21539"
+
+- id: "2001-inleiding"
+  year: 2001
+  title: "Inleiding"
+  details: "(met B. Kruithof en K. Roukens), in *Ongekende meesterwerken*. Samengesteld door Johan Heilbron, Bernard Kruithof, Kitty Roukens, Amsterdam: Stichting Amsterdams Sociologisch Tijdschrift, 2001, p. 9-12."
+  fulltext: "http://rjh.ub.rug.nl/ast/article/view/24047/21499"
+
+- id: "2001-tegenoverdracht-en-mensenwetenschap"
+  year: 2001
+  title: "Tegenoverdracht en mensenwetenschap"
+  details: "in *Ongekende meesterwerken*. Samengesteld door Johan Heilbron, Bernard Kruithof, Kitty Roukens, Amsterdam: Stichting Amsterdams Sociologisch Tijdschrift, 2001, p. 62-66."
+  fulltext: "http://rjh.ub.rug.nl/ast/article/view/24055/21507"
+
+- id: "2001-review-of-h-kalthoff-r-rottenburg"
+  year: 2001
+  title: "Review of H. Kalthoff, R. Rottenburg, H.-J. Wagener (eds), *Facts and figures: economic representations and practices* (Marburg: Metropolis Verlag, 2000)"
+  details: "in *Economic Sociology: European Electronic Newsletter*, 2 (2) 2001, p. 23-24."
+  link: "http://econsoc.mpifg.de"
+
+- id: "2001-review-of-dennis-smith-norbert-elias"
+  year: 2001
+  title: "Review of Dennis Smith, *Norbert Elias and Modern Social Theory* (London: Sage, 2001)"
+  details: "*Figurations*, no 15, 2001."
+
+- id: "2000-translations-as-a-cultural-world-system"
+  year: 2000
+  title: "Translations as a Cultural World-System"
+  details: "*Perspectives: Studies in Translatology*, 8 (1) 2000, p. 9-26."
+
+- id: "2000-trendvolgers-25-jaar-sociaal-en-cultureel"
+  year: 2000
+  title: "Trendvolgers: 25 jaar Sociaal en Cultureel Planbureau"
+  details: "*Academische Boekengids*, nr. 21, 2000, p. 9-11."
+
+- id: "2000-het-wereldvertaalstelsel"
+  year: 2000
+  title: "Het wereldvertaalstelsel"
+  details: "*Filter*, 7 (4) 2000, p. 38-44."
+
+- id: "2000-review-of-francois-dosse-the-empire"
+  year: 2000
+  title: "Review of François Dosse, *The Empire of Meaning* (University of Minnesota Press 1999)"
+  details: "*Contemporary Sociology*, 29 (3) 2000, p. 557-558."
+
+- id: "2000-compte-rendu-de-d-rueschemeyer-t"
+  year: 2000
+  title: "Compte rendu de D. Rueschemeyer & T. Skocpol (eds), *States, Social Knowledge, and the Origins of Modern Social Policies* (Princeton University Press & Russell Sage Foundation, 1996)"
+  details: "*Revue de Synthèse*, no 3-4, 2000, p. 479-481."
+
+- id: "1999-toward-a-sociology-of-translation-book"
+  year: 1999
+  title: "Toward a Sociology of Translation: Book Translations as a Cultural World-System"
+  details: "*European Journal of Social Theory*, 2 (4) 1999, p. 429-444."
+
+- id: "1999-reflexivity-and-its-consequences"
+  year: 1999
+  title: "Reflexivity and its Consequences"
+  details: "*European Journal of Social Theory*, 2 (3) 1999, p. 298-306."
+
+- id: "1999-de-mensenwetenschap-van-abram-de-swaan"
+  year: 1999
+  title: "De mensenwetenschap van Abram de Swaan"
+  details: "(met Geert de Vries), in *De draagbare de Swaan*, samengesteld door Johan Heilbron en Geert de Vries, Amsterdam: Prometheus, 1999, p. 9-22."
+
+- id: "1999-le-renouveau-de-la-sociologie-economique"
+  year: 1999
+  title: "Le renouveau de la sociologie économique"
+  details: "(met Bernard Convert), *6emes Journées IFRESI*, Lille: IFRESI/CNRS, 1999, p. 233-244."
+
+- id: "1999-economic-sociology-in-france"
+  year: 1999
+  title: "Economic Sociology in France"
+  details: "*Economic Sociology: European Electronic Newsletter* 1 (1) 1999, p. 4-10"
+  link: "http://econsoc.mpifg.de/"
+
+- id: "1999-professionnalisation"
+  year: 1999
+  title: "Professionnalisation"
+  details: "in *Dictionnaire de sociologie*, sous la direction de Raymond Boudon, Philippe Besnard, Mohammed Cherkaoui, Bernard-Pierre Lécuyer, Paris: Larousse, 1999, p. 185."
+
+- id: "1998-the-rise-of-the-social-sciences-and"
+  year: 1998
+  title: "The Rise of the Social Sciences and the Formation of Modernity"
+  details: "(met B. Wittrock en L. Magnusson), in: Johan Heilbron, Lars Magnusson & Björn Wittrock (eds), *The Rise of the Social Sciences and the Formation of Modernity: Conceptual Change in Context, 1750-1850*, (Sociology of the Sciences Yearbook), Dordrecht: Kluwer Academic Publications, 1998 (hardback), 2001 (paperback), p. 1-33."
+
+- id: "1998-french-moralists-and-the-anthropology-of"
+  year: 1998
+  title: "French Moralists and the Anthropology of the Modern Era: On the Genesis of the Notions of `Interest' and `Commercial Society'"
+  details: "in: Johan Heilbron, Lars Magnusson & Björn Wittrock (eds), *The Rise of the Social Sciences and the Formation of Modernity: Conceptual Change in Context, 1750-1850*, (Sociology of the Sciences Yearbook), Dordrecht: Kluwer Academic Publications, 1998 (hardback), 2001 (paperback), p. 77-106."
+
+- id: "1998-wat-je-ziet-ben-je-zelf"
+  year: 1998
+  title: "Wat je ziet ben je zelf"
+  details: "(met M. van Bottenburg), *Amsterdams sociologisch tijdschrift*, 25 (1) 1998, p. 23-24"
+  fulltext: "http://rjh.ub.rug.nl/ast/article/view/23909/21361"
+
+- id: "1998-bespreking-van-sandra-van-voorst"
+  year: 1998
+  title: "Bespreking van Sandra van Voorst, *Weten wat er in de wereld te koop is* (Den Haag: SDU Uitgevers, 1997)"
+  details: "in: *Filter* 5 (1) 1998, p. 57-59."
+
+- id: "1997-traductions-et-echanges-culturels-notes"
+  year: 1997
+  title: "Traductions et échanges culturels: notes sur le sytème mondial de traduction"
+  details: "in D. Broady, N. Chmatko & M. de Saint Martin (éd.), *Formation des élites et culture transnationale*, Paris: Ecole des Hautes Etudes en Sciences Sociales/Uppsala: SEC, 1997, p. 337-349."
+
+- id: "1997-cabanis-and-the-ideologues"
+  year: 1997
+  title: "Cabanis and the Idéologues"
+  details: "in Raymond Boudon, Mohammed Cherkaoui & Jeffrey Alexander (eds), *The Classical Tradition in Sociology: The European Tradition*, London: SAGE, 1997, Vol. 1, p. 238-247."
+
+- id: "1997-voorwoord"
+  year: 1997
+  title: "Voorwoord"
+  details: "(met Nico Wilterdink en Abram de Swaan), in *Alles verandert. Opstellen voor en over J. Goudsblom*, onder redactie van Nico Wilterdink, Johan Heilbron en Abram de Swaan, Amsterdam: Meulenhoff, 1997, p. 7-8."
+
+- id: "1997-de-twijfelkunst"
+  year: 1997
+  title: "De twijfelkunst"
+  details: "in *Alles verandert. Opstellen voor en over J. Goudsblom*, onder redactie van Nico Wilterdink, Johan Heilbron en Abram de Swaan, Amsterdam: Meulenhoff, 1997, p. 111-115."
+
+- id: "1997-kooivechten-over-ontsporing-en-commercialisering"
+  year: 1997
+  title: "Kooivechten: over ontsporting en commercialisering van het wedstrijdvechten"
+  details: "(met M. van Bottenburg), *Amsterdams sociologisch tijdschrift* 24 (3/4) 1997, p. 375-398"
+  fulltext: "http://rjh.ub.rug.nl/ast/article/view/23842/21294"
+
+- id: "1997-de-reconstructie-van-de-sociale-wetenschap"
+  year: 1997
+  title: "De reconstructie van de sociale wetenschap"
+  details: "*Amsterdamse boekengids*, nr. 11, 1997, p. 31-32."
+
+- id: "1996-auguste-comte-and-historical-epistemology-a"
+  year: 1996
+  title: "Auguste Comte and Historical Epistemology: A Reply to Dick Pels"
+  details: "*History of the Human Sciences*, 9 (2) 1996, p. 153-159."
+
+- id: "1996-epiloog-buitenlands-cultuurbeleid-binnenstebuiten"
+  year: 1996
+  title: "Epiloog: buitenlands cultuurbeleid binnenstebuiten"
+  details: "*Boekmancahier*, 28, 1996, p. 203-207."
+
+- id: "1996-vertalingen-en-het-wereldvertaalstelsel"
+  year: 1996
+  title: "Vertalingen en het wereldvertaalstelsel"
+  details: "*Van taal tot taal*, 40 (2) 1996, p. 86-90."
+
+- id: "1995-inleiding-mondialisering"
+  year: 1995
+  title: "Inleiding"
+  details: "(met N. Wilterdink), in: *Mondialisering: de wording van de wereldsamenleving*, onder redactie van Johan Heilbron en Nico Wilterdink, Groningen: Wolters-Noordhoff, 1995, p. 7-15"
+  fulltext: "http://rjh.ub.rug.nl/ast/article/view/23705/21158"
+
+- id: "1995-mondialisering-en-transnationaal-cultureel-verkeer"
+  year: 1995
+  title: "Mondialisering en transnationaal cultureel verkeer"
+  details: "in: *Mondialisering: de wording van de wereldsamenleving*, onder redactie van Johan Heilbron en Nico Wilterdink, Groningen: Wolters-Noordhoff, 1995, p. 162-180"
+  fulltext: "http://rjh.ub.rug.nl/ast/article/view/23708/21161"
+
+- id: "1995-inleiding-hoofdstukken-uit-de-sociologie"
+  year: 1995
+  title: "Inleiding"
+  details: "plus korte introducties tot de gekozen teksten (met J. Goudsblom en B. van Heerikhuizen) in *Hoofdstukken uit de sociologie*, onder redactie van J. Goudsblom, Bart van Heerikhuizen en Johan Heilbron, Amsterdam: Amsterdam University Press, 1995."
+
+- id: "1995-inleiding-waarin-een-klein-land"
+  year: 1995
+  title: "Inleiding"
+  details: "(met W. de Nooy en W. Tichelaar), in *Waarin een klein land. Nederlandse cultuur in internationaal verband*, onder redactie van Johan Heilbron, Wouter de Nooy en Wilma Tichelaar, Amsterdam: Prometheus, 1995, p. 7-13."
+
+- id: "1995-nederlandse-vertalingen-wereldwijd-kleine-landen"
+  year: 1995
+  title: "Nederlandse vertalingen wereldwijd. Kleine landen en culturele mondialisering"
+  details: "in *Waarin een klein land. Nederlandse cultuur in internationaal verband*, onder redactie van Johan Heilbron, Wouter de Nooy en Wilma Tichelaar, Amsterdam: Prometheus, 1995, p. 206-252"
+  fulltext: "http://www.dbnl.org/tekst/heil003nede01_01/heil003nede01_01_0001.php"
+
+- id: "1995-artists-residencies-in-the-netherlands"
+  year: 1995
+  title: "Artist’s Residencies in the Netherlands/Résidences artistiques aux Pays-Bas"
+  details: "in *Jeune artiste en Europe aujourd’hui/Emerging Artists in Europe Today*, Paris: INJEP, 1995, p. 36-38."
+
+- id: "1995-sociale-wetenschappen-en-natuurwetenschappen-in"
+  year: 1995
+  title: "Sociale wetenschappen en natuurwetenschappen in historisch perspectief"
+  details: "*Theoretische geschiedenis*, 22 (1) 1995, p. 68-72."
+
+- id: "1995-pays-bas-glossaire"
+  year: 1995
+  title: "Pays-Bas: glossaire"
+  details: "*Liber. Revue internationale des livres*, 25, 1995 [tevens verschenen in diverse andere Europese talen]"
+
+- id: "1995-main-trends-in-cultural-history"
+  year: 1995
+  title: "Main Trends in Cultural History"
+  details: "*Amsterdamse boekengids. Interdisciplinair*, 1 (2) 1995, p. 30-31."
+
+- id: "1995-nietzsches-neefjes"
+  year: 1995
+  title: "Nietzsche's neefjes"
+  details: "*Amsterdamse boekengids. Interdisciplinair*, 1 (4) 1995, p. 27-28."
+
+- id: "1995-de-kunst-van-het-overschrijven"
+  year: 1995
+  title: "De kunst van het overschrijven"
+  details: "(met G. de Vries), *Facta*, 3 (3) 1995, p. 2-6."
+
+- id: "1995-bij-free-fight-kan-overheid-beter"
+  year: 1995
+  title: "Bij free fight kan overheid beter buiten de ring blijven"
+  details: "(met M. van Bottenburg), in: *De Volkskrant*, 27 februari 1995."
+
+- id: "1995-kunstenaars-als-heilanden"
+  year: 1995
+  title: "Kunstenaars als heilanden"
+  details: "*Vrij Nederland*, 26 augustus 1995."
+
+- id: "1994-liberalisme-et-science-sociale-sous"
+  year: 1994
+  title: "Libéralisme et science sociale sous la Troisième République"
+  details: "in: Siep Stuurman (réd.), *Les libéralismes, la théorie politique et l'histoire*, Amsterdam: Amsterdam University Press, 1994, p. 137-148."
+
+- id: "1994-les-trois-cultures"
+  year: 1994
+  title: "Les trois cultures"
+  details: "in: Gérard Mauger & Louis Pinto (red.), *Lire les sciences sociales*, Paris: Belin, 1994, p. 239-244"
+
+- id: "1994-rudi-laermans-over-bourdieu"
+  year: 1994
+  title: "Rudi Laermans over Bourdieu"
+  details: "*Boekmancahier*, 20, 1994, p. 199-200"
+
+- id: "1994-bespr-van-genses-sciences-sociales-et"
+  year: 1994
+  title: "Bespr. van *Genèses. Sciences sociales et histoire* (Paris 1990-1993)"
+  details: "in: *Amsterdams sociologisch tijdschrift*, 20 (3) 1994, p. 161-2"
+
+- id: "1994-bespr-van-timothy-reiss-the-meaning"
+  year: 1994
+  title: "Bespr. van Timothy Reiss, *The Meaning of Literature* (Ithaca/London: Cornell University Press, 1992); Nathalie Heinich, *Du peintre à l'artiste* (Paris: Editions de Minuit, 1993); Jacqueline Bel, *Nederlandse literatuur in het fin de siècle* (Amsterdam: Amsterdam University Press, 1993)"
+  details: "in : *Amsterdams Sociologisch Tijdschrift* 20 (3) 1994, p. 165-7."
+
+- id: "1994-bespr-van-visions-sur-le-developpement"
+  year: 1994
+  title: "Bespr. van *Visions sur le développement des Etats européens; théories et historiographies de l'Etat moderne*, édité par Wim Blockmans et Jean-Philippe Genet (Rome: Ecole Française de Rome, 1993)"
+  details: "in: *Amsterdams sociologisch tijdschrift*, 21 (3) 1994, p. 151."
+
+- id: "1994-bespr-van-rene-boomkens-kritische-massa"
+  year: 1994
+  title: "Bespr. van René Boomkens, *Kritische massa. Over massa, moderne ervaring en popcultuur* (Amsterdam: Van Gennep, 1994)"
+  details: "in: *Vrij Nederland*, 3 september 1994."
+
+- id: "1993-leerprocessen-in-de-beeldende-kunst"
+  year: 1993
+  title: "Leerprocessen in de beeldende kunst"
+  details: "in T. Bevers, A. van den Braembussche, B. J. Langenberg (red.), *De kunstwereld. Productie, distributie en receptie in de wereld van kunst en cultuur*, Hilversum: Verloren, 1993, p. 102-118."
+
+- id: "1993-gelijkenissen-en-schijnverbanden-meer-misvattingen"
+  year: 1993
+  title: "Gelijkenissen en schijnverbanden. Meer misvattingen over Auguste Comte"
+  details: "*Kennis en Methode*, 17 (4) 1993, p. 369-377."
+
+- id: "1993-de-sociale-dynamiek-van-autonome-kunst"
+  year: 1993
+  title: "De sociale dynamiek van autonome kunst. Over Pierre Bourdieu's cultuursociologie"
+  details: "*Amsterdams Sociologisch Tijdschrift*, 20 (1) 1993, p. 132-146"
+  fulltext: "http://rjh.ub.rug.nl/ast/article/view/23656/21109"
+
+- id: "1993-l-art-d-avant-garde-peut-il"
+  year: 1993
+  title: "L’art d’avant-garde, peut-il s’enseigner? Ateliers ’63 et la transmission artistique"
+  details: "*Liber. Revue européenne des livres*, nr 15, 1993, p. 21-23 (ook verschenen in de anderstalige edities)."
+
+- id: "1993-ce-que-durkheim-doit-a-comte"
+  year: 1993
+  title: "Ce que Durkheim doit à Comte"
+  details: "in: Philippe Besnard, M. Borlandi, P. Vogt (red.), *Division du travail et lien social. La thèse de Durkheim un siècle après*, Paris: Presses Universitaires de France, 1993, p. 59-66."
+
+- id: "1993-een-strijdbare-dag-in-parijs"
+  year: 1993
+  title: "Een strijdbare dag in Parijs"
+  details: "in H. Israëls, M. Komen, A. de Swaan (red.), *Over Elias*, Amsterdam: Het Spinhuis, 1993, p. 45-47."
+
+- id: "1992-le-systeme-d-enseignement-superieur-aux"
+  year: 1992
+  title: "Le système d'enseignement supérieur aux Pays-Bas"
+  details: "in M. de Saint Martin & M. D. Gheorghiu (red.), *Les institutions de formation des cadres dirigeants. Etude comparée*, Paris, Maison des Sciences de l'homme, 1992, p. 20-27."
+
+- id: "1992-anatomie-van-een-kunstwereld"
+  year: 1992
+  title: "Anatomie van een kunstwereld"
+  details: "*Boekmancahier*, nr. 11, 1992, p. 84-87."
+
+- id: "1992-contextualisme-op-dood-spoor"
+  year: 1992
+  title: "Contextualisme op dood spoor"
+  details: "*Kennis en methode*, 16 (3) 1992, p. 290-292."
+
+- id: "1992-werkplaatsen-in-de-beeldende-kunst"
+  year: 1992
+  title: "Werkplaatsen in de beeldende kunst"
+  details: "*Boekmancahier*, nr. 11, 1992, p. 113-114."
+
+- id: "1992-denis-diderot-verbindingsofficier-van-de"
+  year: 1992
+  title: "Denis Diderot, verbindingsofficier van de Verlichting"
+  details: "(naar aanleiding van P. Lepape, *Diderot*, Paris: Flammarion, 1991; P.N. Furbank, *Diderot: A Critical Biography*, London: Sacker & Warburg, 1992) in: *NRC Handelsblad*, 30 mei 1992."
+
+- id: "1992-compte-rendu-de-dorothy-ross"
+  year: 1992
+  title: "Compte rendu de Dorothy Ross, *The Origins of American Social Science* (Cambridge: Cambridge University Press, 1991)"
+  details: "in: *Liber. Revue européenne des livres*, no. 9, mars 1992, p. 16 (ook verschenen in de anderstalige edities)"
+
+- id: "1992-compte-rendu-de-wolf-lepenies"
+  year: 1992
+  title: "Compte rendu de Wolf Lepenies, *Les trois cultures. Entre sciences et littérature l'avènement de la sociologie* (Paris: Editions de la MSH, 1990)"
+  details: "in: *Revue de Synthèse*, no. 3-4, 1992, p. 564-567."
+
+- id: "1992-bespr-van-pierre-bourdieu-wacquant"
+  year: 1992
+  title: "Bespr. van Pierre Bourdieu & L. Wacquant, *Argumenten voor een reflexieve sociale wetenschap* (Amsterdam, SUA, 1992)"
+  details: "in: *De Volkskrant*, 28 november 1992."
+
+- id: "1992-bespr-van-r-m-verburg-the"
+  year: 1992
+  title: "Bespr. van R.M. Verburg, *The Two Faces of Interest* (Amsterdam: Thesis Publishers, 1991) en A.J. Kerkhof, *De mens is een angstig dier* (Amsterdam: Boom, 1992)"
+  details: "in: *Mens en maatschappij*, 67 (4) 1992, p. 436-437."
+
+- id: "1991-the-tripartite-division-of-french-social"
+  year: 1991
+  title: "The Tripartite Division of French Social Science. A Long-Term Perspective"
+  details: "in Peter Wagner, Björn Wittrock & Richard Whitley (eds.), *Discourses on Society. The Shaping of the Social Science Disciplines* (Sociology of the Sciences Yearbook, Volume XV), Dordrecht: Kluwer Academic Publishers, 1991, p. 73-92."
+
+- id: "1991-pionniers-par-defaut-les-debuts-de"
+  year: 1991
+  title: "Pionniers par défaut? Les débuts de la recherche au Centre d'études sociologiques (1946-1960)"
+  details: "*Revue française de sociologie*, 27 (3) 1991, p. 365-379."
+  fulltext: "https://www.persee.fr/doc/rfsoc_0035-2969_1991_num_32_3_4061"
+
+- id: "1991-theory-of-knowledge-and-theory-of"
+  year: 1991
+  title: "Theory of Knowledge and Theory of Science in the Work of Auguste Comte"
+  details: "*Revue de Synthèse*, CXII (1) 1991, p. 75-89."
+  also:
+    - "-- Reprinted in Raymond Boudon, Mohammed Cherkaoui & Jeffrey Alexander (eds), *The Classical Tradition in Sociology: The European Tradition*, London: SAGE Publications, 1997, Vol. 1, p. 328-340."
+  fulltext: "https://link.springer.com/content/pdf/10.1007/BF03181073.pdf"
+
+- id: "1991-intellectuele-geschiedenis-als-sociologisch-probleem-repliek"
+  year: 1991
+  title: "Intellectuele geschiedenis als sociologisch probleem. Repliek"
+  details: "*Amsterdams Sociologisch Tijdschrift*, 18 (1) 1991, p. 140-160"
+  fulltext: "http://rjh.ub.rug.nl/ast/article/view/23562/21016"
+
+- id: "1991-compte-rendu-de-w-h-kranendonk"
+  year: 1991
+  title: "Compte rendu de W.H. Kranendonk, *Society as Process* (Amsterdam: Publikatiereeks Sociologisch Instituut, 1990)"
+  details: "in: *Actes de la recherche en sciences sociales*, no. 86/87, 1991."
+
+- id: "1991-compte-rendu-de-j-b-bedaux"
+  year: 1991
+  title: "Compte rendu de J.B. Bedaux, *The Reality of Symbols: Studies in the Iconology of Netherlandish Art, 1400-1800* (The Hague: Gary Schwartz/SDU, 1990)"
+  details: "in: *Liber. Revue européenne des livres*, no. 7, september 1991 (ook verschenen in de anderstalige edities van Liber)"
+
+- id: "1991-bespreking-van-m-cranston-the"
+  year: 1991
+  title: "Bespreking van M. Cranston, *The Noble Savage: Jean-Jacques Rousseau 1754-1762* (London: Allen Lane, 1991)"
+  details: "in: *NRC Handelsblad*, 15 juni 1991."
+
+- id: "1991-bespreking-van-b-fontana-benjamin"
+  year: 1991
+  title: "Bespreking van B. Fontana, *Benjamin Constant and the Post-Revolutionary Mind* (New Haven/London: Yale University Press, 1991)"
+  details: "in: *NRC Handelsblad*, 14 september 1991."
+
+- id: "1991-bespreking-van-c-lasch-the"
+  year: 1991
+  title: "Bespreking van C. Lasch, *The True and Only Heaven: Progress and its Critics* (New York: W.W. Norton, 1991)"
+  details: "in: *Vrij Nederland*, 21 september 1991."
+
+- id: "1991-uniek-amerika"
+  year: 1991
+  title: "Uniek Amerika"
+  details: "*NRC Handelsblad*, 30 november 1991."
+
+- id: "1990-auguste-comte-and-modern-epistemology"
+  year: 1990
+  title: "Auguste Comte and Modern Epistemology"
+  details: "*Sociological Theory*, 8, 1990, p. 153-162."
+
+- id: "1990-auguste-comte-och-den-moderna"
+  year: 1990
+  title: "Auguste Comte och den moderna epistemologins genombrott"
+  details: "*Vest. Tidskrift för vetenskapsstudier*, 4, 1990, p. 16-25."
+
+- id: "1990-les-debuts-de-la-recherche-sociologique"
+  year: 1990
+  title: "Les débuts de la recherche sociologique en France"
+  details: "*Cahiers pour l'histoire du CNRS*, vol. 6, 1990, p. 126-127"
+
+- id: "1989-the-particularity-and-particularisms-of"
+  year: 1989
+  title: "The Particularity and Particularisms of Sociology in the Netherlands"
+  details: "*Research Notes from the Netherlands*, 1, 1989, p. 2-6."
+
+- id: "1989-eerstejaars-sociologiestudenten-in-amsterdam"
+  year: 1989
+  title: "Eerstejaars sociologiestudenten in Amsterdam"
+  details: "*Sociodrome*, no. 3, 1989, p. 2-5 (met H. Schijf en M. Vink)."
+
+- id: "1988-particularites-et-particularismes-de-la-sociologie"
+  year: 1988
+  title: "Particularités et particularismes de la sociologie aux Pays-Bas"
+  details: "*Actes de la recherche en sciences sociales*, 74, 1988, p. 76-81."
+  fulltext: "https://www.persee.fr/doc/arss_0335-5322_1988_num_74_1_2437"
+
+- id: "1988-bespr-van-philippe-besnard-l-anomie"
+  year: 1988
+  title: "Bespr. van Philippe Besnard, *L'anomie, ses usages et ses fonctions dans la discipline sociologique depuis Durkheim* (Paris: Presses Universitaires de France, 1987)"
+  details: "in: *Mens en maatschappij*, 63, 1988, p. 112."
+
+- id: "1987-a-propos-de-la-decouverte-du"
+  year: 1987
+  title: "A propos de la découverte du virus du Sida. Mécanismes de concurrence et de défense dans un conflit scientifique"
+  details: "(avec Jaap Goudsmit), *Actes de la recherche en sciences sociales*, 69, 1987, p. 98-104."
+  fulltext: "https://www.persee.fr/doc/arss_0335-5322_1987_num_69_1_2385"
+
+- id: "1987-uber-die-genese-der-soziologie"
+  year: 1987
+  title: "Über die Genese der Soziologie in Frankreich"
+  details: "in *Wissenschaftskolleg Jahrbuch*, Berlin: Siedler Verlag, 1987, p. 267-279."
+
+- id: "1987-aids-een-wereldprobleem"
+  year: 1987
+  title: "AIDS: een wereldprobleem"
+  details: "(met Jaap Goudsmit en Mattias Duyves), *Spectrum Jaarboek 1987*, Utrecht, Antwerpen: Het Spectrum, 1987, p. 194-198."
+
+- id: "1987-reperes"
+  year: 1987
+  title: "Repères"
+  details: "[entretien avec Pierre Bourdieu], in : Pierre Bourdieu, *Choses dites*, Paris: Editions de Minuit, 1987, p. 47-71."
+
+- id: "1987-bespr-van-b-kristensen-het"
+  year: 1987
+  title: "Bespr. van B. Kristensen, *Het verraad van de techniek: over de sociologie van Jacques Ellul* (Amsterdam: VU Uitgeverij, 1986)"
+  details: "in *Mens en maatschappij*, 62, 1987, p. 335-336."
+
+- id: "1986-de-ontdekking-van-het-aids-virus"
+  year: 1986
+  title: "De ontdekking van het Aids-virus. Over weerstand en wedijver in een prioriteitsgeschil"
+  details: "(met Jaap Goudsmit), *De Gids*, 149, 1986, p. 3-14."
+
+- id: "1986-la-professionnalisation-comme-concept-sociologique"
+  year: 1986
+  title: "La professionnalisation comme concept sociologique et comme stratégie des sociologues"
+  details: "in *Historiens et sociologues aujourd'hui*, Paris: Editions du CNRS, 1986, p. 61-73."
+
+- id: "1986-ars-inveniendi-vraaggesprek-met-pierre"
+  year: 1986
+  title: "Ars inveniendi. Vraaggesprek met Pierre Bourdieu"
+  details: "(met M. de Groot), *Psychologie en Maatschappij*, 10, 1986, p. 46-55."
+
+- id: "1986-uber-die-entdeckung-des-aids-virus"
+  year: 1986
+  title: "Über die Entdeckung des Aids-Virus. Abwehr und Konkurrenz in einem Prioritätenstreit"
+  details: "(met J. Goudsmit), *Merkur*, 40, no. 453, 1986, p. 948-62."
+
+- id: "1986-compte-rendu-de-wolf-lepenies"
+  year: 1986
+  title: "Compte rendu de Wolf Lepenies, *Die drei Kulturen. Soziologie zwischen Literatur und Wissenschaf*t (München: Karl Hanser Verlag, 1985)"
+  details: "*Actes de la recherche en sciences sociales*, 62/63, 1986, p. 135"
+
+- id: "1985-les-metamorphoses-du-durkheimisme-1920"
+  year: 1985
+  title: "Les métamorphoses du durkheimisme, 1920-1940"
+  details: "*Revue française de sociologie*, 26 (2) 1985, p. 203-237."
+  fulltext: "https://www.persee.fr/doc/rfsoc_0035-2969_1985_num_26_2_3945"
+
+- id: "1985-werkloze-academici"
+  year: 1985
+  title: "Werkloze academici"
+  details: "(met T. Schram), *Intermediair*, 21, no. 22, 1985, p. 1-9."
+
+- id: "1985-wedijveren-om-werkkringen"
+  year: 1985
+  title: "Wedijveren om werkkringen"
+  details: "(met T. Schram), Intermediair, 21, no. 36, 1985, p. 39-41."
+
+- id: "1985-werkloosheid-onder-academici-de-cijfers"
+  year: 1985
+  title: "Werkloosheid onder academici: de cijfers"
+  details: "(met T. Schram), *Intermediair*, 21, no. 36, 1985, p. 47-49."
+
+- id: "1985-werkloosheid-in-de-sociale-wetenschappen"
+  year: 1985
+  title: "Werkloosheid in de sociale wetenschappen"
+  details: "*Sociodrome*, no. 3, 1985, p. 15-16."
+
+- id: "1985-bespr-van-pierre-bourdieu-homo-academicus"
+  year: 1985
+  title: "Bespr. van Pierre Bourdieu, *Homo academicus* (Paris: Editons de Minuit, 1985)"
+  details: "in: *Amsterdams sociologisch tijdschrift*, 12, 1985, p. 188-191."
+
+- id: "1984-compte-rendu-d-alain-drouard"
+  year: 1984
+  title: "Compte rendu d’Alain Drouard (éd.), *Le développement des sciences sociales en France au tournant des années soixante* (Paris: Editions du CNRS, 1983)"
+  details: "*Revue française de sociologie*, 25, 1984, p. 307-308."
+
+- id: "1984-bespr-van-philippe-besnard-ed"
+  year: 1984
+  title: "Bespr. van Philippe Besnard (ed.), *The Sociological Domain: The Durkheimians and the Founding of French Sociology* (Cambridge: Cambridge University Press, 1983)"
+  details: "in: *Mens en maatschappij*, 59, 1984, p. 100-101."
+
+- id: "1983-het-paradoxale-succes-van-emile-durkheim"
+  year: 1983
+  title: "Het paradoxale succes van Emile Durkheim"
+  details: "*Amsterdams Sociologisch Tijdschrift*, 10, 1983, p. 29-50"
+  fulltext: "http://rjh.ub.rug.nl/ast/article/view/24265/21716"
+
+- id: "1983-scepsis-en-realisme-over-het-werk"
+  year: 1983
+  title: "Scepsis en realisme. Over het werk van Raymond Aron"
+  details: "*Intermediair,* 19, no. 9, 1983, p. 13-15."
+
+- id: "1983-interview-met-pierre-bourdieu"
+  year: 1983
+  title: "Interview met Pierre Bourdieu"
+  details: "(met B. Maso), *Amsterdams Sociologisch Tijdschrift*, 10, 1983, p. 307-334."
+  fulltext: "http://rjh.ub.rug.nl/ast/article/view/23127/20582"
+
+- id: "1983-note-sur-l-institut-francais-de"
+  year: 1983
+  title: "Note sur l’Institut français de sociologie (1924-1962)"
+  details: "*Études durkheimiennes*, 9, 1983, p. 9-14."
+
+- id: "1983-pierre-bourdieun-haastattelu"
+  year: 1983
+  title: "Pierre Bourdieun haastattelu"
+  details: "(met J.P. Roos en B. Maso), *Sosiologia*, 4, 1983, p. 319-329."
+
+- id: "1983-bespreking-van-raymond-aron-le"
+  year: 1983
+  title: "Bespreking van Raymond Aron, *Le spectateur engagé* (Paris: Juillard, 1981)"
+  details: "in: *Mens en maatschappij,* 58, 1983, p. 316-317."
+
+- id: "1982-franse-sociologie-in-nederland-receptiepatronen"
+  year: 1982
+  title: "Franse sociologie in Nederland. Receptiepatronen in de Nederlandse sociologie"
+  details: "*Sociodrome*, 4, 1982, p. 8-11."
+
+- id: "1982-bespreking-van-pierre-bourdieu-la"
+  year: 1982
+  title: "Bespreking van Pierre Bourdieu, *La distinction. Critique sociale du jugement* (Paris: Minuit, 1979)"
+  details: "*Sociologische Gids*, 29, 1982, p. 536-538."
+
+- id: "1981-opkomst-en-ondergang-van-een"
+  year: 1981
+  title: "Opkomst en ondergang van een intellectuele mode: het structuralisme"
+  details: "*Amsterdams Sociologisch Tijdschrijft*, 8, 1981, p. 395-438"
+  fulltext: "http://rjh.ub.rug.nl/ast/article/view/22747/20202"
+
+- id: "1981-gaston-bachelard"
+  year: 1981
+  title: "Gaston Bachelard"
+  details: "in: C.P. Bertels & E.J. Petersma (red.), *Filosofen van de twintigste eeuw*, 7e geheel herziene druk, Assen: Van Gorcum, 1981, p. 207-222."
+
+- id: "1981-bespreking-van-egide-berns-samuel"
+  year: 1981
+  title: "Bespreking van Egide Berns, Samuel IJsseling & Paul Moyaert, *Denken in Parijs* (Alphen aan de Rijn: Samson, 1981)"
+  details: "*Folia Civitatis*, 34 (36) 1981."
+
+- id: "1980-ik-wilde-een-geengageerd-toeschouwer"
+  year: 1980
+  title: "Ik wilde een geëngageerd toeschouwer van de geschiedenis zijn. Vraaggesprek met Raymond Aron"
+  details: "*Intermediair*, 16, no. 40, 1980, p. 1-7."
+
+- id: "1978-de-stilte-rond-gaston-bachelard"
+  year: 1978
+  title: "De stilte rond Gaston Bachelard"
+  details: "*Kennis en Methode*, 2, 1978, p. 178-202."
