@@ -234,10 +234,13 @@ def build():
             shutil.copytree(ROOT / d, OUT / d, dirs_exist_ok=True,
                             ignore=shutil.ignore_patterns(".gitkeep", "README*", "*.md"))
 
-    css_hash = hashlib.md5((ROOT / "assets" / "style.css").read_bytes()).hexdigest()[:8]
+    # Version asset URLs by content: GitHub Pages lets browsers cache them for
+    # 10 minutes, and new HTML with a stale script or stylesheet breaks things.
+    def version(name):
+        return hashlib.md5((ROOT / "assets" / name).read_bytes()).hexdigest()[:8]
 
     env = Environment(loader=FileSystemLoader(TEMPLATES), autoescape=select_autoescape(["html"]))
-    env.globals.update(site=site, css_version=css_hash)
+    env.globals.update(site=site, css_version=version("style.css"), js_version=version("site.js"))
 
     def render(template, out_path, **ctx):
         target = OUT / out_path
