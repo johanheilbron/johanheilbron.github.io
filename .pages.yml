@@ -1,7 +1,7 @@
 # Pages CMS configuration (https://app.pagescms.org).
-# Gives a simple form-based editor for the About page, the CV and site settings.
-# The publication list is NOT edited here: it comes from Johan's own Word index
-# (see CLAUDE.md), and PDFs go into the bib/ folders.
+# Gives a simple form-based editor for the About and Contact pages and site settings.
+# The publication list and the CV are NOT edited here: they come from Johan's own
+# Word files (see CLAUDE.md), and PDFs go into the bib/ folders.
 
 media:
   - name: images
@@ -48,22 +48,7 @@ content:
     path: content/contact.md
     fields:
       - name: body
-        label: Text (address, links); the e-mail address is set under Site settings
-        type: rich-text
-
-  - name: cv
-    label: CV
-    type: file
-    path: content/cv.md
-    fields:
-      - name: pdf
-        label: CV as PDF (optional)
-        type: file
-        options:
-          media: files
-          extensions: [pdf]
-      - name: body
-        label: CV text
+        label: Text (address, links). The e-mail address is set separately, in encoded form.
         type: rich-text
 
   - name: publications-intro
@@ -86,7 +71,5 @@ content:
         type: string
       - name: description
         type: text
-      - name: email
-        type: string
       - name: domain
         type: string

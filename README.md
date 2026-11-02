@@ -5,14 +5,16 @@ Every change saved here appears on the website by itself, usually within two min
 
 ---
 
-## The publication list
+## The publication list and the CV
 
-The list of publications on the website is taken from **your own Word file**:
+Both are taken from **your own Word files**:
 
-`Documenten\Johan 1 - Werk\CV\- 1 PUBL78NU(NL).docx`
+- Publications: `Documenten\Johan 1 - Werk\CV\- 1 PUBL78NU(NL).docx`
+- CV: `Documenten\Johan 1 - Werk\CV\- 2 Heilbron CV (English complete) 2026.docx`
+  (the part before "Publications"; a newer year in the file name is picked up automatically)
 
-Keep working in that file exactly as you always have. It is the only source of the list;
-nobody edits it except you. The website follows it whenever the list is synchronised (below).
+Keep working in those files exactly as you always have. They are the only source;
+nobody edits them except you. The website follows them whenever it is synchronised (below).
 
 ## Adding PDFs
 
@@ -32,25 +34,24 @@ Try to keep each PDF under 20 MB.
 
 ## Putting the changes online ("sync")
 
-After you have changed the Word list or added PDFs, the website needs to be synchronised.
+After you have changed the Word files or added PDFs, the website needs to be synchronised.
 Claude does this: open the Claude app, choose the **website** folder, and type:
 
 > Sync the website.
 
-Claude then reads your Word list, updates the publication list, finds out which publication
+Claude then reads your Word files, updates the publication list and the CV, finds out which publication
 each new PDF belongs to, adds a **Download** button for it, and puts everything online.
 It tells you what it changed. PDFs it could not identify with certainty are listed in
 `bib\UNMATCHED.md`; it never guesses.
 
 ---
 
-## About, CV and Contact
+## About and Contact
 
 These are ordinary text files that you can edit yourself:
 
 - **About:** `content\about.md`
-- **CV:** `content\cv.md`
-- **Contact:** `content\contact.md` (the e-mail address itself is in `content\site.yaml`)
+- **Contact:** `content\contact.md`
 
 Two ways to edit them:
 
@@ -58,10 +59,12 @@ Two ways to edit them:
    click **Commit changes**.
 2. **With Pages CMS:** go to https://app.pagescms.org, click **Sign in with GitHub**,
    choose the repository `johanheilbron.github.io`, and use the forms for
-   *About page*, *CV* and *Contact page*. Click **Save** when done.
+   *About page* and *Contact page*. Click **Save** when done.
 
 Text between `*stars*` appears in italics. A line starting with `## ` is a heading.
-In the CV, a line like `- 2008–2018: Professor ...` puts the years in the left column.
+
+Your e-mail address is not written anywhere in plain text, to keep spam robots from
+collecting it: visitors see a link "Show e-mail address". To change the address, ask Claude.
 
 ---
 

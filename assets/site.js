@@ -1,4 +1,17 @@
-// Research page: highlight the sidebar entry for the section being read.
+// Contact page: decode the e-mail address only when a visitor asks for it.
+// The address is stored reversed and base64-encoded (tools/encode_email.py),
+// so it never appears in plain text in the HTML.
+document.querySelectorAll("button.reveal[data-e]").forEach(function (button) {
+  button.addEventListener("click", function () {
+    var address = atob(button.getAttribute("data-e")).split("").reverse().join("");
+    var link = document.createElement("a");
+    link.href = "mailto:" + address;
+    link.textContent = address;
+    button.replaceWith(link);
+  });
+});
+
+// Publications page: highlight the sidebar entry for the section being read.
 (function () {
   var links = Array.prototype.slice.call(document.querySelectorAll(".sections a"));
   var sections = Array.prototype.slice.call(document.querySelectorAll(".listing section[id]"));

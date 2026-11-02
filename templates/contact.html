@@ -2,7 +2,7 @@
 {% block title %}Contact | {{ site.name }}{% endblock %}
 {% block content %}
     <article class="prose contact">
-      {% if site.email %}<p><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>{% endif %}
+      {% if site.email_encoded %}<p><button type="button" class="reveal" data-e="{{ site.email_encoded }}">Show e-mail address</button></p>{% endif %}
       {{ body | safe }}
     </article>
 {% endblock %}

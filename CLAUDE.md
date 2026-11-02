@@ -6,23 +6,27 @@ via GitHub Pages (custom domain registered at TransIP).
 
 ## Who uses this
 
-- **Johan** (site owner) is not a programmer. He maintains his publication list in Word,
-  drops PDFs into `bib/`, and asks Claude to "sync the website". README.md is written for
-  him; keep it accurate and in plain language whenever you change how things work.
+- **Johan** (site owner) is not a programmer. He maintains his publication list and CV in
+  Word, drops PDFs into `bib/`, and asks Claude to "sync the website". README.md is written
+  for him; keep it accurate and in plain language whenever you change how things work.
 - **Micha** (his son) set the site up and may ask agents for design changes.
 
-## RULE ZERO: the gold index is read-only
+## RULE ZERO: the gold files are read-only
 
-The publication list comes from Johan's Word file, the **gold index**:
+Two of Johan's Word files are the **gold sources** of the site:
 
-    C:\Users\johan\OneDrive\Documenten\Johan 1 - Werk\CV\- 1 PUBL78NU(NL).docx
+    C:\Users\johan\OneDrive\Documenten\Johan 1 - Werk\CV\- 1 PUBL78NU(NL).docx                        (publications: "the gold index")
+    C:\Users\johan\OneDrive\Documenten\Johan 1 - Werk\CV\- 2 Heilbron CV (English complete) <year>.docx (CV)
 
-- **Never edit, move, rename, copy over, re-save or "fix" this file, or anything else in
-  `Johan 1 - Werk`.** Not even typos. Only Johan changes it. If you think something in it
-  is wrong, tell him.
-- Read it **only** through `uv run tools/read_index.py`, which opens it read-only and writes
-  a text snapshot into this repo. `.claude/settings.json` denies Claude's edit tools on that
-  folder; do not weaken that rule, and do not write there from scripts or shell commands.
+- **Never edit, move, rename, copy over, re-save or "fix" these files, or anything else in
+  `Johan 1 - Werk`.** Not even typos. Only Johan changes them. If you think something in
+  them is wrong, tell him.
+- Read them **only** through `uv run tools/read_index.py` (publications) and
+  `uv run tools/read_index.py --cv` (CV, newest year in the file name). These open the files
+  read-only and write text snapshots into this repo, with e-mail addresses removed.
+  `.claude/settings.json` denies Claude's edit tools on that folder; do not weaken that rule,
+  and do not write there from scripts or shell commands.
+- Snapshots and content are public. Never put an e-mail address in plain text into the repo.
 
 ## Architecture
 
@@ -31,8 +35,22 @@ The publication list comes from Johan's Word file, the **gold index**:
   `uv run --frozen build.py` on every push to `main` and deploys `_site/` (never committed).
 - Python environment managed by **uv** (`pyproject.toml`, `uv.lock`, local `.venv/`).
   Never `pip install` globally; use `uv add <pkg>`.
-- Pages: About (`/`), Publications (`/publications/`), CV (`/cv/`), Contact (`/contact/`,
-  from `content/contact.md`; e-mail from `content/site.yaml`). No news section, by request.
+- Pages: About (`/`, `content/about.md`), Publications (`/publications/`), CV (`/cv/`,
+  `content/cv.md`), Contact (`/contact/`, `content/contact.md`). No news section, by request.
+- E-mail (anti-spam): `content/site.yaml` holds only `email_encoded` (address reversed, then
+  base64; make it with `uv run tools/encode_email.py name@example.org`). The Contact page
+  shows a "Show e-mail address" button; `assets/site.js` decodes it on click. Current address:
+  his planet.nl address (see the encoded value).
+
+## CV data
+
+- `content/cv.md` mirrors the CV part of the Word CV (everything before its "Publications"
+  heading), section by section, as Markdown lists. Same fidelity rules as the publications:
+  no paraphrasing or correcting; only make table cells that ran together readable
+  ("Secondary schoolLyceum" → "Secondary school: Lyceum"), drop stray invisible characters,
+  and wrap URLs in `<...>` so they are clickable. Never copy the address/e-mail header block.
+  The CV's own publication list is ignored; the Publications page comes from the gold index.
+- `content/cv-snapshot.txt`: text snapshot of the Word CV at the last sync.
 
 ## Publication data
 
@@ -91,9 +109,12 @@ Run these steps in order and report to Johan in plain language what changed.
    the "wrong" folder is fine: link it with its full `bib/...` path.
    If you are not sure, do not guess: add it to `bib/UNMATCHED.md` (file, what you found,
    candidate entries) and tell Johan. Remove resolved items from that file.
-4. **Build and check.** `uv run build.py` must end without new `WARNING` lines. Preview with
+4. **Sync the CV.** `uv run tools/read_index.py --cv`, then `git diff content/cv-snapshot.txt`.
+   Apply changes in the CV part (before "Publications") to `content/cv.md`, following
+   "CV data" above. Changes in the CV's own publication list need no action.
+5. **Build and check.** `uv run build.py` must end without new `WARNING` lines. Preview with
    `uv run build.py serve` (http://localhost:8000/publications/) if you changed anything visible.
-5. **Commit and push.** `git add -A; git commit -m "Sync publications: <short summary>"; git push`.
+6. **Commit and push.** `git add -A; git commit -m "Sync: <short summary>"; git push`.
    Git authenticates over SSH (`~/.ssh/id_ed25519`, account `johanheilbron`). The Actions run
    deploys within ~2 minutes; check with `gh run list --limit 3`.
 

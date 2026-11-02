@@ -33,6 +33,20 @@ a:focus-visible { outline: 1px dotted currentColor; outline-offset: 2px; }
 
 img { max-width: 100%; height: auto; display: block; }
 
+/* A button that reads as a link (e-mail reveal on the Contact page) */
+button.reveal {
+  padding: 0;
+  border: 0;
+  background: none;
+  font: inherit;
+  color: var(--link);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.15em;
+  cursor: pointer;
+}
+button.reveal:hover { color: var(--ink); }
+
 /* ---------- Masthead ---------- */
 
 .masthead {

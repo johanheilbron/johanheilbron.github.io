@@ -1,12 +1,10 @@
-Centre européen de sociologie et de science politique (CESSP)  
-CNRS, EHESS, Université Paris 1 Panthéon-Sorbonne  
-Paris
-
-Erasmus University Rotterdam  
-Rotterdam
+Centre Européen de Sociologie et de Science Politique (CESSP)  
+École des Hautes Études en Sciences Sociales (EHESS)  
+54, boulevard Raspail  
+75270 Paris Cedex 06
 
 ## Elsewhere
 
 - [ORCID](https://orcid.org/0000-0003-2747-4487)
 - [HAL](https://hal.science/search/index/?q=authFullName_s:%22Johan%20Heilbron%22)
-- [Academia Europaea](https://www.ae-info.org/ae/User/Heilbron_Johan)
+- [Academia Europaea](https://www.ae-info.org/ae/Member/Heilbron_Johan)

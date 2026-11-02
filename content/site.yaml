@@ -2,7 +2,9 @@
 
 name: Johan Heilbron
 description: Johan Heilbron, historical sociologist. Publications and CV.
-email:            # e.g. name@example.org; leave empty to hide
+# E-mail for the Contact page, encoded so it is never in plain text (anti-spam).
+# Make a new value with: uv run tools/encode_email.py name@example.org
+email_encoded: "bG4udGVuYWxwQG5vcmJsaWVoLm5haG9q"
 domain: johanheilbron.nl
 
 # Sections of the Publications page, in the order they appear.
